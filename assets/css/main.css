@@ -190,9 +190,9 @@ p { margin: 0 0 1em; }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); color: var(--ink); }
 .card p { color: var(--ink-soft); flex: 1; }
 .card .link { color: var(--teal); align-self: flex-start; }
-.card-kicker.card-kicker-icon { display: flex; align-items: center; gap: 12px; line-height: 1; }
+.card-kicker.card-kicker-icon { display: flex; align-items: flex-end; gap: 12px; line-height: 1; }
 .card-icon { display: inline-flex; flex: none; color: var(--teal); }
-.card-icon svg { width: 30px; height: 30px; display: block; }
+.card-icon svg { width: 30px; height: 30px; display: block; margin-bottom: -3px; }
 .card-kicker { display: block; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--teal); margin-bottom: 14px; }
 
 /* Llamada a la acción */
@@ -261,7 +261,8 @@ p { margin: 0 0 1em; }
 .place-head h2 { font-size: clamp(1.5rem, 2.4vw, 1.9rem); margin-bottom: .5em; }
 .place-address { display: flex; align-items: flex-start; gap: 10px; color: var(--ink-soft); margin: 0; padding: 0 32px; }
 .place-address .pin { flex: none; width: 20px; height: 20px; margin-top: 3px; color: var(--teal); }
-.place-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 28px 32px 32px; padding-top: 24px; border-top: 1px solid var(--line); }
+.place-actions { display: flex; flex-wrap: wrap; align-items: center; align-self: start; gap: 10px; margin: 24px 32px 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+.place-actions .btn { padding: .55em 1.15em; font-size: .85rem; }
 
 /* Contacto */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
@@ -397,8 +398,7 @@ p { margin: 0 0 1em; }
   .card, .contact-card { padding: 28px 24px; }
   .place-head { padding: 24px 24px 0; }
   .place-address { padding: 0 24px; }
-  .place-actions { margin: 24px; padding-top: 20px; gap: 10px; }
-  .place-actions .btn { padding-left: .8em; padding-right: .8em; }
+  .place-actions { margin: 20px 24px 24px; padding-top: 18px; }
   .cita { padding: 60px 0; }
   .cita-actions, .cita-actions .btn, .actions .btn { width: 100%; }
   .langs-list { grid-template-columns: 1fr; }
