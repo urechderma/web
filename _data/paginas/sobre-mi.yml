@@ -9,18 +9,18 @@ es:
   clinica_eyebrow: Experiencia
   clinica_titulo: Clínica y docencia
   clinica:
-    - { fecha: Mayo 2026 – actualidad, titulo: Dermatóloga · Práctica privada, texto: Grupo Pedro Jaén. Dermatología clínica y estética. }
-    - { fecha: Práctica pública, titulo: Dermatóloga, texto: "Hospital Universitario Ramón y Cajal, Madrid." }
-    - { fecha: "2014 – 2021", titulo: Docencia médica, texto: "Coordinadora y profesora de Dermatología en ProMIR Academy (2016–2021) y CTO Academy (2014–2016)." }
-    - { fecha: "2015 – 2016", titulo: Unidad de Dermatología Ginecológica, texto: Creación e implantación de la unidad en el Hospital Universitario Madrid Montepríncipe. }
-    - { fecha: "2011 – 2015", titulo: Especialización MIR y Jefa de Residentes, texto: "Hospital Universitario Ramón y Cajal, Madrid. Vicepresidenta de la Comisión de Docencia del hospital y coordinadora de rotaciones y formación." }
+    - { fecha: "Mayo 2026 – actualidad", titulo: "Dermatóloga · Práctica privada", texto: "Grupo Pedro Jaén. Dermatología clínica y estética." }
+    - { fecha: "Práctica pública", titulo: "Dermatóloga", texto: "Hospital Universitario Ramón y Cajal, Madrid." }
+    - { fecha: "2014 – 2021", titulo: "Docencia médica", texto: "Coordinadora y profesora de Dermatología en ProMIR Academy (2016–2021) y CTO Academy (2014–2016)." }
+    - { fecha: "2015 – 2016", titulo: "Unidad de Dermatología Ginecológica", texto: "Creación e implantación de la unidad en el Hospital Universitario Madrid Montepríncipe." }
+    - { fecha: "2011 – 2015", titulo: "Especialización MIR y Jefa de Residentes", texto: "Hospital Universitario Ramón y Cajal, Madrid. Vicepresidenta de la Comisión de Docencia del hospital y coordinadora de rotaciones y formación." }
   industria_eyebrow: Industria farmacéutica
   industria_titulo: Roche Farma España
   industria:
-    - { titulo: Oncology Medical Affairs Lead & Breast Cancer Area Lead, texto: Liderazgo del equipo Medical Affairs en Oncología en España. Definición de la estrategia médica nacional, ensayos clínicos y lanzamientos de terapias innovadoras. }
-    - { titulo: Therapeutic Area Lead · Ophthalmology, texto: Coordinación del equipo médico experto e implantación de nuevo rol para el primer dispositivo médico en la división. Estrategia de prelanzamiento y lanzamiento nacional de terapias avanzadas. }
-    - { titulo: "Disease Area Leader · Inmunología, Enfermedades Autoinmunes, Oftalmología", texto: Dirección estratégica y presupuestaria de proyectos médicos y equipos nacionales de MSLs/Medical Managers. }
-    - { titulo: Medical Manager · Hemofilia y Cáncer de Piel, texto: Coordinación médica nacional de lanzamientos. Diseño e implementación de ensayos clínicos locales y supervisión de estudios promovidos por investigadores. }
+    - { titulo: "Oncology Medical Affairs Lead & Breast Cancer Area Lead", texto: "Liderazgo del equipo Medical Affairs en Oncología en España. Definición de la estrategia médica nacional, ensayos clínicos y lanzamientos de terapias innovadoras." }
+    - { titulo: "Therapeutic Area Lead · Ophthalmology", texto: "Coordinación del equipo médico experto e implantación de nuevo rol para el primer dispositivo médico en la división. Estrategia de prelanzamiento y lanzamiento nacional de terapias avanzadas." }
+    - { titulo: "Disease Area Leader · Inmunología, Enfermedades Autoinmunes, Oftalmología", texto: "Dirección estratégica y presupuestaria de proyectos médicos y equipos nacionales de MSLs/Medical Managers." }
+    - { titulo: "Medical Manager · Hemofilia y Cáncer de Piel", texto: "Coordinación médica nacional de lanzamientos. Diseño e implementación de ensayos clínicos locales y supervisión de estudios promovidos por investigadores." }
   formacion_eyebrow: Formación
   formacion_titulo: Formación académica
   formacion:
@@ -30,10 +30,10 @@ es:
     - Curso en Inmunología e Inmunoterapia del Cáncer · Universidad de Zaragoza.
   idiomas_titulo: Idiomas
   idiomas:
-    - { idioma: Español, nivel: Nativo }
-    - { idioma: Francés, nivel: Bilingüe (Baccalauréat national) }
-    - { idioma: Inglés, nivel: Competencia profesional }
-    - { idioma: Italiano, nivel: "Fluido (B2, EOI Madrid)" }
+    - { idioma: "Español", nivel: "Nativo" }
+    - { idioma: "Francés", nivel: "Bilingüe (Baccalauréat national)" }
+    - { idioma: "Inglés", nivel: "Competencia profesional" }
+    - { idioma: "Italiano", nivel: "Fluido (B2, EOI Madrid)" }
 
 en:
   titulo: About me
@@ -46,18 +46,18 @@ en:
   clinica_eyebrow: Experience
   clinica_titulo: Clinical practice and teaching
   clinica:
-    - { fecha: May 2026 – present, titulo: Dermatologist · Private practice, texto: Grupo Pedro Jaén. Medical and aesthetic dermatology. }
-    - { fecha: Public healthcare, titulo: Dermatologist, texto: "Ramón y Cajal University Hospital, Madrid." }
-    - { fecha: "2014 – 2021", titulo: Medical teaching, texto: "Dermatology coordinator and lecturer at ProMIR Academy (2016–2021) and CTO Academy (2014–2016)." }
-    - { fecha: "2015 – 2016", titulo: Gynaecological Dermatology Unit, texto: Set up and launched the unit at Madrid Montepríncipe University Hospital. }
-    - { fecha: "2011 – 2015", titulo: Dermatology residency and Chief Resident, texto: "Ramón y Cajal University Hospital, Madrid. Vice-chair of the hospital’s Teaching Committee and coordinator of rotations and training." }
+    - { fecha: "May 2026 – present", titulo: "Dermatologist · Private practice", texto: "Grupo Pedro Jaén. Medical and aesthetic dermatology." }
+    - { fecha: "Public healthcare", titulo: "Dermatologist", texto: "Ramón y Cajal University Hospital, Madrid." }
+    - { fecha: "2014 – 2021", titulo: "Medical teaching", texto: "Dermatology coordinator and lecturer at ProMIR Academy (2016–2021) and CTO Academy (2014–2016)." }
+    - { fecha: "2015 – 2016", titulo: "Gynaecological Dermatology Unit", texto: "Set up and launched the unit at Madrid Montepríncipe University Hospital." }
+    - { fecha: "2011 – 2015", titulo: "Dermatology residency and Chief Resident", texto: "Ramón y Cajal University Hospital, Madrid. Vice-chair of the hospital’s Teaching Committee and coordinator of rotations and training." }
   industria_eyebrow: Pharmaceutical industry
   industria_titulo: Roche Spain
   industria:
-    - { titulo: Oncology Medical Affairs Lead & Breast Cancer Area Lead, texto: Led the Oncology Medical Affairs team in Spain. Defined the national medical strategy, clinical trials and launches of innovative therapies. }
-    - { titulo: Therapeutic Area Lead · Ophthalmology, texto: Coordinated the expert medical team and introduced a new role for the division’s first medical device. Pre-launch strategy and national launch of advanced therapies. }
-    - { titulo: "Disease Area Leader · Immunology, Autoimmune Diseases, Ophthalmology", texto: Strategic and budget management of medical projects and national teams of MSLs/Medical Managers. }
-    - { titulo: Medical Manager · Haemophilia and Skin Cancer, texto: National medical coordination of launches. Design and implementation of local clinical trials and oversight of investigator-initiated studies. }
+    - { titulo: "Oncology Medical Affairs Lead & Breast Cancer Area Lead", texto: "Led the Oncology Medical Affairs team in Spain. Defined the national medical strategy, clinical trials and launches of innovative therapies." }
+    - { titulo: "Therapeutic Area Lead · Ophthalmology", texto: "Coordinated the expert medical team and introduced a new role for the division’s first medical device. Pre-launch strategy and national launch of advanced therapies." }
+    - { titulo: "Disease Area Leader · Immunology, Autoimmune Diseases, Ophthalmology", texto: "Strategic and budget management of medical projects and national teams of MSLs/Medical Managers." }
+    - { titulo: "Medical Manager · Haemophilia and Skin Cancer", texto: "National medical coordination of launches. Design and implementation of local clinical trials and oversight of investigator-initiated studies." }
   formacion_eyebrow: Education
   formacion_titulo: Academic background
   formacion:
@@ -67,10 +67,10 @@ en:
     - Course in Cancer Immunology and Immunotherapy · University of Zaragoza.
   idiomas_titulo: Languages
   idiomas:
-    - { idioma: Spanish, nivel: Native }
-    - { idioma: French, nivel: Bilingual (French Baccalauréat) }
-    - { idioma: English, nivel: Full professional proficiency }
-    - { idioma: Italian, nivel: "Fluent (B2, EOI Madrid)" }
+    - { idioma: "Spanish", nivel: "Native" }
+    - { idioma: "French", nivel: "Bilingual (French Baccalauréat)" }
+    - { idioma: "English", nivel: "Full professional proficiency" }
+    - { idioma: "Italian", nivel: "Fluent (B2, EOI Madrid)" }
 
 fr:
   titulo: À propos
@@ -83,18 +83,18 @@ fr:
   clinica_eyebrow: Expérience
   clinica_titulo: Clinique et enseignement
   clinica:
-    - { fecha: Mai 2026 – aujourd’hui, titulo: Dermatologue · Exercice privé, texto: Grupo Pedro Jaén. Dermatologie médicale et esthétique. }
-    - { fecha: Exercice public, titulo: Dermatologue, texto: "Hôpital universitaire Ramón y Cajal, Madrid." }
-    - { fecha: "2014 – 2021", titulo: Enseignement médical, texto: "Coordinatrice et enseignante en dermatologie à ProMIR Academy (2016–2021) et CTO Academy (2014–2016)." }
-    - { fecha: "2015 – 2016", titulo: Unité de dermatologie gynécologique, texto: Création et mise en place de l’unité à l’Hôpital universitaire Madrid Montepríncipe. }
-    - { fecha: "2011 – 2015", titulo: Internat (MIR) et cheffe des internes, texto: "Hôpital universitaire Ramón y Cajal, Madrid. Vice-présidente de la Commission d’enseignement de l’hôpital et coordinatrice des stages et de la formation." }
+    - { fecha: "Mai 2026 – aujourd’hui", titulo: "Dermatologue · Exercice privé", texto: "Grupo Pedro Jaén. Dermatologie médicale et esthétique." }
+    - { fecha: "Exercice public", titulo: "Dermatologue", texto: "Hôpital universitaire Ramón y Cajal, Madrid." }
+    - { fecha: "2014 – 2021", titulo: "Enseignement médical", texto: "Coordinatrice et enseignante en dermatologie à ProMIR Academy (2016–2021) et CTO Academy (2014–2016)." }
+    - { fecha: "2015 – 2016", titulo: "Unité de dermatologie gynécologique", texto: "Création et mise en place de l’unité à l’Hôpital universitaire Madrid Montepríncipe." }
+    - { fecha: "2011 – 2015", titulo: "Internat (MIR) et cheffe des internes", texto: "Hôpital universitaire Ramón y Cajal, Madrid. Vice-présidente de la Commission d’enseignement de l’hôpital et coordinatrice des stages et de la formation." }
   industria_eyebrow: Industrie pharmaceutique
   industria_titulo: Roche Espagne
   industria:
-    - { titulo: Oncology Medical Affairs Lead & Breast Cancer Area Lead, texto: Direction de l’équipe Medical Affairs en oncologie en Espagne. Définition de la stratégie médicale nationale, des essais cliniques et des lancements de thérapies innovantes. }
-    - { titulo: Therapeutic Area Lead · Ophthalmology, texto: Coordination de l’équipe médicale experte et création d’un nouveau rôle pour le premier dispositif médical de la division. Stratégie de pré-lancement et lancement national de thérapies avancées. }
-    - { titulo: "Disease Area Leader · Immunologie, maladies auto-immunes, ophtalmologie", texto: Pilotage stratégique et budgétaire de projets médicaux et d’équipes nationales de MSL/Medical Managers. }
-    - { titulo: Medical Manager · Hémophilie et cancer de la peau, texto: Coordination médicale nationale des lancements. Conception et mise en œuvre d’essais cliniques locaux et suivi d’études à l’initiative des investigateurs. }
+    - { titulo: "Oncology Medical Affairs Lead & Breast Cancer Area Lead", texto: "Direction de l’équipe Medical Affairs en oncologie en Espagne. Définition de la stratégie médicale nationale, des essais cliniques et des lancements de thérapies innovantes." }
+    - { titulo: "Therapeutic Area Lead · Ophthalmology", texto: "Coordination de l’équipe médicale experte et création d’un nouveau rôle pour le premier dispositif médical de la division. Stratégie de pré-lancement et lancement national de thérapies avancées." }
+    - { titulo: "Disease Area Leader · Immunologie, maladies auto-immunes, ophtalmologie", texto: "Pilotage stratégique et budgétaire de projets médicaux et d’équipes nationales de MSL/Medical Managers." }
+    - { titulo: "Medical Manager · Hémophilie et cancer de la peau", texto: "Coordination médicale nationale des lancements. Conception et mise en œuvre d’essais cliniques locaux et suivi d’études à l’initiative des investigateurs." }
   formacion_eyebrow: Formation
   formacion_titulo: Formation universitaire
   formacion:
@@ -104,10 +104,10 @@ fr:
     - Formation en immunologie et immunothérapie du cancer · Université de Saragosse.
   idiomas_titulo: Langues
   idiomas:
-    - { idioma: Espagnol, nivel: Langue maternelle }
-    - { idioma: Français, nivel: Bilingue (Baccalauréat national) }
-    - { idioma: Anglais, nivel: Compétence professionnelle }
-    - { idioma: Italien, nivel: "Courant (B2, EOI Madrid)" }
+    - { idioma: "Espagnol", nivel: "Langue maternelle" }
+    - { idioma: "Français", nivel: "Bilingue (Baccalauréat national)" }
+    - { idioma: "Anglais", nivel: "Compétence professionnelle" }
+    - { idioma: "Italien", nivel: "Courant (B2, EOI Madrid)" }
 
 it:
   titulo: Chi sono
@@ -120,18 +120,18 @@ it:
   clinica_eyebrow: Esperienza
   clinica_titulo: Clinica e didattica
   clinica:
-    - { fecha: Maggio 2026 – oggi, titulo: Dermatologa · Libera professione, texto: Grupo Pedro Jaén. Dermatologia clinica ed estetica. }
-    - { fecha: Sanità pubblica, titulo: Dermatologa, texto: "Ospedale Universitario Ramón y Cajal, Madrid." }
-    - { fecha: "2014 – 2021", titulo: Didattica medica, texto: "Coordinatrice e docente di Dermatologia presso ProMIR Academy (2016–2021) e CTO Academy (2014–2016)." }
-    - { fecha: "2015 – 2016", titulo: Unità di Dermatologia Ginecologica, texto: Creazione e avvio dell’unità presso l’Ospedale Universitario Madrid Montepríncipe. }
-    - { fecha: "2011 – 2015", titulo: Specializzazione (MIR) e Chief Resident, texto: "Ospedale Universitario Ramón y Cajal, Madrid. Vicepresidente della Commissione didattica dell’ospedale e coordinatrice di tirocini e formazione." }
+    - { fecha: "Maggio 2026 – oggi", titulo: "Dermatologa · Libera professione", texto: "Grupo Pedro Jaén. Dermatologia clinica ed estetica." }
+    - { fecha: "Sanità pubblica", titulo: "Dermatologa", texto: "Ospedale Universitario Ramón y Cajal, Madrid." }
+    - { fecha: "2014 – 2021", titulo: "Didattica medica", texto: "Coordinatrice e docente di Dermatologia presso ProMIR Academy (2016–2021) e CTO Academy (2014–2016)." }
+    - { fecha: "2015 – 2016", titulo: "Unità di Dermatologia Ginecologica", texto: "Creazione e avvio dell’unità presso l’Ospedale Universitario Madrid Montepríncipe." }
+    - { fecha: "2011 – 2015", titulo: "Specializzazione (MIR) e Chief Resident", texto: "Ospedale Universitario Ramón y Cajal, Madrid. Vicepresidente della Commissione didattica dell’ospedale e coordinatrice di tirocini e formazione." }
   industria_eyebrow: Industria farmaceutica
   industria_titulo: Roche Spagna
   industria:
-    - { titulo: Oncology Medical Affairs Lead & Breast Cancer Area Lead, texto: Guida del team Medical Affairs di Oncologia in Spagna. Definizione della strategia medica nazionale, degli studi clinici e dei lanci di terapie innovative. }
-    - { titulo: Therapeutic Area Lead · Ophthalmology, texto: Coordinamento del team medico esperto e introduzione di un nuovo ruolo per il primo dispositivo medico della divisione. Strategia di pre-lancio e lancio nazionale di terapie avanzate. }
-    - { titulo: "Disease Area Leader · Immunologia, Malattie Autoimmuni, Oftalmologia", texto: Gestione strategica e di budget di progetti medici e di team nazionali di MSL/Medical Manager. }
-    - { titulo: Medical Manager · Emofilia e Tumori della Pelle, texto: Coordinamento medico nazionale dei lanci. Disegno e conduzione di studi clinici locali e supervisione di studi promossi dagli sperimentatori. }
+    - { titulo: "Oncology Medical Affairs Lead & Breast Cancer Area Lead", texto: "Guida del team Medical Affairs di Oncologia in Spagna. Definizione della strategia medica nazionale, degli studi clinici e dei lanci di terapie innovative." }
+    - { titulo: "Therapeutic Area Lead · Ophthalmology", texto: "Coordinamento del team medico esperto e introduzione di un nuovo ruolo per il primo dispositivo medico della divisione. Strategia di pre-lancio e lancio nazionale di terapie avanzate." }
+    - { titulo: "Disease Area Leader · Immunologia, Malattie Autoimmuni, Oftalmologia", texto: "Gestione strategica e di budget di progetti medici e di team nazionali di MSL/Medical Manager." }
+    - { titulo: "Medical Manager · Emofilia e Tumori della Pelle", texto: "Coordinamento medico nazionale dei lanci. Disegno e conduzione di studi clinici locali e supervisione di studi promossi dagli sperimentatori." }
   formacion_eyebrow: Formazione
   formacion_titulo: Formazione accademica
   formacion:
@@ -141,7 +141,7 @@ it:
     - Corso di Immunologia e Immunoterapia dei Tumori · Università di Saragozza.
   idiomas_titulo: Lingue
   idiomas:
-    - { idioma: Spagnolo, nivel: Madrelingua }
-    - { idioma: Francese, nivel: Bilingue (Baccalauréat national) }
-    - { idioma: Inglese, nivel: Competenza professionale }
-    - { idioma: Italiano, nivel: "Fluente (B2, EOI Madrid)" }
+    - { idioma: "Spagnolo", nivel: "Madrelingua" }
+    - { idioma: "Francese", nivel: "Bilingue (Baccalauréat national)" }
+    - { idioma: "Inglese", nivel: "Competenza professionale" }
+    - { idioma: "Italiano", nivel: "Fluente (B2, EOI Madrid)" }

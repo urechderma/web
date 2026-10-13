@@ -20,7 +20,7 @@ La web está en cuatro idiomas: español (raíz), inglés (`/en/`), francés (`/
 ## Cómo hacer un cambio
 
 1. Abre en GitHub el archivo de `_data/paginas/` de la página y pulsa el icono del lápiz.
-2. Cambia el texto en los idiomas que toque. Si una línea contiene dos puntos seguidos de espacio (`: `), el texto debe ir entre comillas.
+2. Cambia el texto en los idiomas que toque, sin borrar las comillas. Si añades un texto nuevo que contenga comas o dos puntos, ponlo entre comillas dobles ("así").
 3. Pulsa "Commit changes". En uno o dos minutos la web se actualiza sola.
 
 ## Probar en local

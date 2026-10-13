@@ -14,6 +14,10 @@
   <title>{{ titulo_pagina | strip_html }}</title>
   <meta name="description" content="{{ descripcion | strip_html }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {%- assign posts_idioma = site.posts | where: "lang", page.lang %}
+  {%- if page.ref == "blog" and posts_idioma.size == 0 %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
   {%- if page.ref %}
   {%- for l in site.data.i18n.idiomas %}
   {%- assign alt = site.pages | where: "ref", page.ref | where: "lang", l | first %}

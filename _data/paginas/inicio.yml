@@ -6,10 +6,10 @@ es:
   foto_alt: La Dra. Marta Urech en su consulta
   cifras_aria: Trayectoria en cifras
   cifras:
-    - { num: "2011–2015", texto: Especialidad MIR en el Hospital Universitario Ramón y Cajal }
-    - { num: 10 años, texto: de Medical Affairs en Roche Farma España }
-    - { num: Serrano 143, texto: Consulta privada en Grupo Pedro Jaén }
-    - { num: 4 idiomas, texto: Español, inglés, francés e italiano }
+    - { num: "2011–2015", texto: "Especialidad MIR en el Hospital Universitario Ramón y Cajal" }
+    - { num: "10 años", texto: "de Medical Affairs en Roche Farma España" }
+    - { num: "Serrano 143", texto: "Consulta privada en Grupo Pedro Jaén" }
+    - { num: "4 idiomas", texto: "Español, inglés, francés e italiano" }
   hola_eyebrow: Hola, soy Marta
   hola_titulo: Una vocación que empezó en la universidad
   hola_parrafos:
@@ -37,10 +37,10 @@ en:
   foto_alt: Dr. Marta Urech in her practice
   cifras_aria: Career highlights
   cifras:
-    - { num: "2011–2015", texto: Dermatology residency at Ramón y Cajal University Hospital }
-    - { num: 10 years, texto: in Medical Affairs at Roche Spain }
-    - { num: Serrano 143, texto: Private practice at Grupo Pedro Jaén }
-    - { num: 4 languages, texto: Spanish, English, French and Italian }
+    - { num: "2011–2015", texto: "Dermatology residency at Ramón y Cajal University Hospital" }
+    - { num: "10 years", texto: "in Medical Affairs at Roche Spain" }
+    - { num: "Serrano 143", texto: "Private practice at Grupo Pedro Jaén" }
+    - { num: "4 languages", texto: "Spanish, English, French and Italian" }
   hola_eyebrow: Hello, I’m Marta
   hola_titulo: A vocation that began at university
   hola_parrafos:
@@ -68,10 +68,10 @@ fr:
   foto_alt: Le Dr Marta Urech dans son cabinet
   cifras_aria: Parcours en chiffres
   cifras:
-    - { num: "2011–2015", texto: Internat de dermatologie à l’Hôpital universitaire Ramón y Cajal }
-    - { num: 10 ans, texto: en Medical Affairs chez Roche Espagne }
-    - { num: Serrano 143, texto: Cabinet privé au Grupo Pedro Jaén }
-    - { num: 4 langues, texto: Espagnol, anglais, français et italien }
+    - { num: "2011–2015", texto: "Internat de dermatologie à l’Hôpital universitaire Ramón y Cajal" }
+    - { num: "10 ans", texto: "en Medical Affairs chez Roche Espagne" }
+    - { num: "Serrano 143", texto: "Cabinet privé au Grupo Pedro Jaén" }
+    - { num: "4 langues", texto: "Espagnol, anglais, français et italien" }
   hola_eyebrow: Bonjour, je suis Marta
   hola_titulo: Une vocation née à l’université
   hola_parrafos:
@@ -99,10 +99,10 @@ it:
   foto_alt: La Dott.ssa Marta Urech nel suo studio
   cifras_aria: Il percorso in cifre
   cifras:
-    - { num: "2011–2015", texto: Specializzazione in Dermatologia all’Ospedale Universitario Ramón y Cajal }
-    - { num: 10 anni, texto: di Medical Affairs in Roche Spagna }
-    - { num: Serrano 143, texto: Studio privato presso il Grupo Pedro Jaén }
-    - { num: 4 lingue, texto: Spagnolo, inglese, francese e italiano }
+    - { num: "2011–2015", texto: "Specializzazione in Dermatologia all’Ospedale Universitario Ramón y Cajal" }
+    - { num: "10 anni", texto: "di Medical Affairs in Roche Spagna" }
+    - { num: "Serrano 143", texto: "Studio privato presso il Grupo Pedro Jaén" }
+    - { num: "4 lingue", texto: "Spagnolo, inglese, francese e italiano" }
   hola_eyebrow: Ciao, sono Marta
   hola_titulo: Una vocazione nata all’università
   hola_parrafos:

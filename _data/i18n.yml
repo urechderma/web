@@ -21,13 +21,13 @@ es:
   abrir_maps: Abrir en Google Maps
   idiomas_atencion: Atiendo en español, English, français e italiano.
   menu:
-    - { titulo: Sobre mí, ref: sobre-mi }
-    - { titulo: Dermatología, ref: dermatologia }
-    - { titulo: Asesoría, ref: asesoria }
-    - { titulo: Publicaciones, ref: publicaciones }
-    - { titulo: Blog, ref: blog }
-    - { titulo: Dónde encontrarme, ref: donde-encontrarme }
-    - { titulo: Contacto, ref: contacto }
+    - { titulo: "Sobre mí", ref: "sobre-mi" }
+    - { titulo: "Dermatología", ref: "dermatologia" }
+    - { titulo: "Asesoría", ref: "asesoria" }
+    - { titulo: "Publicaciones", ref: "publicaciones" }
+    - { titulo: "Blog", ref: "blog" }
+    - { titulo: "Dónde encontrarme", ref: "donde-encontrarme" }
+    - { titulo: "Contacto", ref: "contacto" }
   cita:
     eyebrow: Cita previa
     titulo: ¿Hablamos de tu piel?
@@ -68,13 +68,13 @@ en:
   abrir_maps: Open in Google Maps
   idiomas_atencion: I see patients in Spanish, English, French and Italian.
   menu:
-    - { titulo: About me, ref: sobre-mi }
-    - { titulo: Dermatology, ref: dermatologia }
-    - { titulo: Consulting, ref: asesoria }
-    - { titulo: Publications, ref: publicaciones }
-    - { titulo: Blog, ref: blog }
-    - { titulo: Locations, ref: donde-encontrarme }
-    - { titulo: Contact, ref: contacto }
+    - { titulo: "About me", ref: "sobre-mi" }
+    - { titulo: "Dermatology", ref: "dermatologia" }
+    - { titulo: "Consulting", ref: "asesoria" }
+    - { titulo: "Publications", ref: "publicaciones" }
+    - { titulo: "Blog", ref: "blog" }
+    - { titulo: "Locations", ref: "donde-encontrarme" }
+    - { titulo: "Contact", ref: "contacto" }
   cita:
     eyebrow: Appointments
     titulo: Shall we talk about your skin?
@@ -115,13 +115,13 @@ fr:
   abrir_maps: Ouvrir dans Google Maps
   idiomas_atencion: Je consulte en espagnol, anglais, français et italien.
   menu:
-    - { titulo: À propos, ref: sobre-mi }
-    - { titulo: Dermatologie, ref: dermatologia }
-    - { titulo: Conseil, ref: asesoria }
-    - { titulo: Publications, ref: publicaciones }
-    - { titulo: Blog, ref: blog }
-    - { titulo: Où me trouver, ref: donde-encontrarme }
-    - { titulo: Contact, ref: contacto }
+    - { titulo: "À propos", ref: "sobre-mi" }
+    - { titulo: "Dermatologie", ref: "dermatologia" }
+    - { titulo: "Conseil", ref: "asesoria" }
+    - { titulo: "Publications", ref: "publicaciones" }
+    - { titulo: "Blog", ref: "blog" }
+    - { titulo: "Où me trouver", ref: "donde-encontrarme" }
+    - { titulo: "Contact", ref: "contacto" }
   cita:
     eyebrow: Rendez-vous
     titulo: Et si nous parlions de votre peau ?
@@ -162,13 +162,13 @@ it:
   abrir_maps: Apri in Google Maps
   idiomas_atencion: Visito in spagnolo, inglese, francese e italiano.
   menu:
-    - { titulo: Chi sono, ref: sobre-mi }
-    - { titulo: Dermatologia, ref: dermatologia }
-    - { titulo: Consulenza, ref: asesoria }
-    - { titulo: Pubblicazioni, ref: publicaciones }
-    - { titulo: Blog, ref: blog }
-    - { titulo: Dove trovarmi, ref: donde-encontrarme }
-    - { titulo: Contatti, ref: contacto }
+    - { titulo: "Chi sono", ref: "sobre-mi" }
+    - { titulo: "Dermatologia", ref: "dermatologia" }
+    - { titulo: "Consulenza", ref: "asesoria" }
+    - { titulo: "Pubblicazioni", ref: "publicaciones" }
+    - { titulo: "Blog", ref: "blog" }
+    - { titulo: "Dove trovarmi", ref: "donde-encontrarme" }
+    - { titulo: "Contatti", ref: "contacto" }
   cita:
     eyebrow: Appuntamenti
     titulo: Parliamo della tua pelle?

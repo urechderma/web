@@ -8,8 +8,11 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{% include url.html ref='inicio' %}">
-      <span class="brand-name">{{ ui.marca }}</span>
-      <span class="brand-tag">{{ ui.marca_tag }}</span>
+      {% include logo.svg %}
+      <span class="brand-text">
+        <span class="brand-name">{{ ui.marca }}</span>
+        <span class="brand-tag">{{ ui.marca_tag }}</span>
+      </span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
       <span class="sr-only">{{ ui.menu_boton }}</span>
@@ -17,7 +20,9 @@
     </button>
     <nav id="menu" class="nav" aria-label="{{ ui.menu_aria }}">
       <ul>
+        {% assign posts_idioma = site.posts | where: "lang", page.lang %}
         {% for item in ui.menu %}
+        {% if item.ref == "blog" and posts_idioma.size == 0 %}{% continue %}{% endif %}
         <li><a href="{% include url.html ref=item.ref %}"{% if page.ref == item.ref or page.layout == "post" and item.ref == "blog" %} aria-current="page"{% endif %}>{{ item.titulo }}</a></li>
         {% endfor %}
       </ul>

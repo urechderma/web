@@ -30,7 +30,7 @@
       <p class="eyebrow">{{ t.hola_eyebrow }}</p>
       <h2>{{ t.hola_titulo }}</h2>
     </div>
-    <div class="prose">
+    <div class="prose home-bio">
       {% for p in t.hola_parrafos %}<p>{{ p }}</p>
       {% endfor %}
       <p><a class="link" href="{% include url.html ref='sobre-mi' %}">{{ t.hola_enlace }}</a></p>

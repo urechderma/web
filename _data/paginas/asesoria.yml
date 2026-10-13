@@ -5,9 +5,9 @@ es:
   h1: Rigor científico y visión clínica para la industria
   lead: Pongo a disposición de la industria farmacéutica y biotecnológica mi experiencia en Medical Affairs y liderazgo científico para ofrecer una consultoría independiente y estratégica.
   pilares:
-    - { titulo: Estrategia médica, texto: Diseño de estrategias médicas sólidas en las distintas etapas de desarrollo de un producto. }
-    - { titulo: Valor científico, texto: Maximizar el valor científico de los productos con un profundo conocimiento del desarrollo e innovación de terapias avanzadas. }
-    - { titulo: Necesidades no cubiertas, texto: "Identificación de necesidades médicas no cubiertas, con la perspectiva de quien trabaja también en la consulta." }
+    - { titulo: "Estrategia médica", texto: "Diseño de estrategias médicas sólidas en las distintas etapas de desarrollo de un producto." }
+    - { titulo: "Valor científico", texto: "Maximizar el valor científico de los productos con un profundo conocimiento del desarrollo e innovación de terapias avanzadas." }
+    - { titulo: "Necesidades no cubiertas", texto: "Identificación de necesidades médicas no cubiertas, con la perspectiva de quien trabaja también en la consulta." }
   exp_eyebrow: Experiencia
   exp_titulo: Diez años en Medical Affairs
   exp_texto: "En Roche Farma España (2016-2026) trabajé en áreas complejas como Hemofilia, Enfermedades Autoinmunes, Oftalmología y Oncología, liderando equipos médicos, estrategias nacionales, ensayos clínicos y lanzamientos de terapias innovadoras."
@@ -23,9 +23,9 @@ en:
   h1: Scientific rigour and clinical insight for industry
   lead: I offer the pharmaceutical and biotech industry my experience in Medical Affairs and scientific leadership through independent, strategic consulting.
   pilares:
-    - { titulo: Medical strategy, texto: Designing robust medical strategies across the different stages of a product’s development. }
-    - { titulo: Scientific value, texto: Maximising the scientific value of products with in-depth knowledge of the development and innovation of advanced therapies. }
-    - { titulo: Unmet needs, texto: "Identifying unmet medical needs, from the perspective of someone who also sees patients." }
+    - { titulo: "Medical strategy", texto: "Designing robust medical strategies across the different stages of a product’s development." }
+    - { titulo: "Scientific value", texto: "Maximising the scientific value of products with in-depth knowledge of the development and innovation of advanced therapies." }
+    - { titulo: "Unmet needs", texto: "Identifying unmet medical needs, from the perspective of someone who also sees patients." }
   exp_eyebrow: Experience
   exp_titulo: Ten years in Medical Affairs
   exp_texto: "At Roche Spain (2016-2026) I worked in complex areas such as Haemophilia, Autoimmune Diseases, Ophthalmology and Oncology, leading medical teams, national strategies, clinical trials and launches of innovative therapies."
@@ -41,9 +41,9 @@ fr:
   h1: Rigueur scientifique et regard clinique au service de l’industrie
   lead: Je mets mon expérience en Medical Affairs et en leadership scientifique à la disposition de l’industrie pharmaceutique et biotechnologique, sous forme de conseil indépendant et stratégique.
   pilares:
-    - { titulo: Stratégie médicale, texto: Conception de stratégies médicales solides aux différentes étapes du développement d’un produit. }
-    - { titulo: Valeur scientifique, texto: Maximiser la valeur scientifique des produits grâce à une connaissance approfondie du développement et de l’innovation des thérapies avancées. }
-    - { titulo: Besoins non couverts, texto: "Identification des besoins médicaux non couverts, avec le regard de quelqu’un qui exerce aussi en cabinet." }
+    - { titulo: "Stratégie médicale", texto: "Conception de stratégies médicales solides aux différentes étapes du développement d’un produit." }
+    - { titulo: "Valeur scientifique", texto: "Maximiser la valeur scientifique des produits grâce à une connaissance approfondie du développement et de l’innovation des thérapies avancées." }
+    - { titulo: "Besoins non couverts", texto: "Identification des besoins médicaux non couverts, avec le regard de quelqu’un qui exerce aussi en cabinet." }
   exp_eyebrow: Expérience
   exp_titulo: Dix ans en Medical Affairs
   exp_texto: "Chez Roche Espagne (2016-2026), j’ai travaillé dans des domaines complexes comme l’hémophilie, les maladies auto-immunes, l’ophtalmologie et l’oncologie, en dirigeant des équipes médicales, des stratégies nationales, des essais cliniques et des lancements de thérapies innovantes."
@@ -59,9 +59,9 @@ it:
   h1: Rigore scientifico e visione clinica per l’industria
   lead: Metto a disposizione dell’industria farmaceutica e biotecnologica la mia esperienza in Medical Affairs e leadership scientifica, con una consulenza indipendente e strategica.
   pilares:
-    - { titulo: Strategia medica, texto: Definizione di strategie mediche solide nelle diverse fasi di sviluppo di un prodotto. }
-    - { titulo: Valore scientifico, texto: Massimizzare il valore scientifico dei prodotti grazie a una profonda conoscenza dello sviluppo e dell’innovazione delle terapie avanzate. }
-    - { titulo: Bisogni insoddisfatti, texto: "Individuazione dei bisogni medici insoddisfatti, con lo sguardo di chi lavora anche in ambulatorio." }
+    - { titulo: "Strategia medica", texto: "Definizione di strategie mediche solide nelle diverse fasi di sviluppo di un prodotto." }
+    - { titulo: "Valore scientifico", texto: "Massimizzare il valore scientifico dei prodotti grazie a una profonda conoscenza dello sviluppo e dell’innovazione delle terapie avanzate." }
+    - { titulo: "Bisogni insoddisfatti", texto: "Individuazione dei bisogni medici insoddisfatti, con lo sguardo di chi lavora anche in ambulatorio." }
   exp_eyebrow: Esperienza
   exp_titulo: Dieci anni in Medical Affairs
   exp_texto: "In Roche Spagna (2016-2026) ho lavorato in aree complesse come Emofilia, Malattie Autoimmuni, Oftalmologia e Oncologia, guidando team medici, strategie nazionali, studi clinici e lanci di terapie innovative."

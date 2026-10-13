@@ -7,8 +7,8 @@ es:
   horario_titulo: Horario y citas
   modalidad: Presencial o virtual.
   horario:
-    - { dia: Martes, horas: "10:00 – 13:30" }
-    - { dia: Miércoles, horas: "16:00 – 19:00" }
+    - { dia: "Martes", horas: "10:00 – 13:30" }
+    - { dia: "Miércoles", horas: "16:00 – 19:00" }
   foto_alt: Edificio de Grupo Pedro Jaén en Serrano 143
   correo_eyebrow: Por correo
   correo_titulo: Escríbeme
@@ -24,8 +24,8 @@ en:
   horario_titulo: Hours and appointments
   modalidad: In person or online.
   horario:
-    - { dia: Tuesday, horas: "10:00 – 13:30" }
-    - { dia: Wednesday, horas: "16:00 – 19:00" }
+    - { dia: "Tuesday", horas: "10:00 – 13:30" }
+    - { dia: "Wednesday", horas: "16:00 – 19:00" }
   foto_alt: Grupo Pedro Jaén building at Serrano 143
   correo_eyebrow: By email
   correo_titulo: Write to me
@@ -41,8 +41,8 @@ fr:
   horario_titulo: Horaires et rendez-vous
   modalidad: En cabinet ou en ligne.
   horario:
-    - { dia: Mardi, horas: "10 h 00 – 13 h 30" }
-    - { dia: Mercredi, horas: "16 h 00 – 19 h 00" }
+    - { dia: "Mardi", horas: "10 h 00 – 13 h 30" }
+    - { dia: "Mercredi", horas: "16 h 00 – 19 h 00" }
   foto_alt: Bâtiment du Grupo Pedro Jaén au 143 rue Serrano
   correo_eyebrow: Par e-mail
   correo_titulo: Écrivez-moi
@@ -58,8 +58,8 @@ it:
   horario_titulo: Orari e appuntamenti
   modalidad: In presenza o online.
   horario:
-    - { dia: Martedì, horas: "10:00 – 13:30" }
-    - { dia: Mercoledì, horas: "16:00 – 19:00" }
+    - { dia: "Martedì", horas: "10:00 – 13:30" }
+    - { dia: "Mercoledì", horas: "16:00 – 19:00" }
   foto_alt: Edificio del Grupo Pedro Jaén in Serrano 143
   correo_eyebrow: Via email
   correo_titulo: Scrivimi

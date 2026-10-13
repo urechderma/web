@@ -142,7 +142,9 @@ p { margin: 0 0 1em; }
   border-bottom: 1px solid var(--line);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 24px; }
-.brand { flex: none; white-space: nowrap; display: flex; flex-direction: column; text-decoration: none; line-height: 1.1; }
+.brand { flex: none; white-space: nowrap; display: flex; align-items: center; gap: 12px; text-decoration: none; line-height: 1.1; color: var(--teal-deep); }
+.brand .logo { width: 44px; height: 44px; flex: none; }
+.brand-text { display: flex; flex-direction: column; }
 .brand-name { font-family: var(--serif); font-size: 1.35rem; color: var(--teal-deep); }
 .brand-tag { font-size: .68rem; letter-spacing: .28em; text-transform: uppercase; color: var(--teal); margin-top: 4px; }
 .nav { display: flex; align-items: center; gap: 28px; }
@@ -210,8 +212,7 @@ p { margin: 0 0 1em; }
 
 /* Llamada a la acción */
 .cita {
-  background: var(--teal-deep) url("{{ '/assets/img/piel.jpg' | relative_url }}") center / cover;
-  background-blend-mode: multiply;
+  background: linear-gradient(rgba(38, 107, 115, .9), rgba(38, 107, 115, .9)), url("{{ '/assets/img/piel.jpg' | relative_url }}") center / cover;
   color: #fff;
   padding: 80px 0;
 }
@@ -383,7 +384,8 @@ p { margin: 0 0 1em; }
   .hero-grid, .page-head-grid, .two-col, .cards, .places, .contact-grid { grid-template-columns: 1fr; gap: 36px; }
   .places { row-gap: 0; }
   .place + .place { margin-top: 28px; }
-  .hero-photo { max-width: 420px; }
+  .hero-photo { max-width: 320px; order: -1; }
+  .hero::before { top: 0; bottom: auto; height: 300px; border-radius: 0 0 0 160px; }
   .two-col > div:first-child { position: static; }
   .facts-grid { grid-template-columns: 1fr 1fr; }
   .fact { padding: 26px 20px; border-left: 0; border-top: 1px solid rgba(255,255,255,.14); }
@@ -402,6 +404,10 @@ p { margin: 0 0 1em; }
 
 /* Móvil */
 @media (max-width: 560px) {
+  .hero-photo { max-width: 230px; }
+  .hero::before { height: 220px; }
+  .home-bio p:nth-child(2), .home-bio p:nth-child(3) { display: none; }
+  .brand .logo { width: 38px; height: 38px; }
   .topbar-info span, .topbar-info { font-size: .78rem; }
   .topbar-info .addr { display: none; }
   body { font-size: 16px; }
