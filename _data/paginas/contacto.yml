@@ -1,0 +1,67 @@
+es:
+  titulo: Contacto
+  descripcion: Horario y cita previa con la Dra. Marta Urech, dermatóloga en Grupo Pedro Jaén, Serrano 143, Madrid. Teléfono +34 914 31 78 61.
+  eyebrow: Contacto
+  h1: Consulta de Dermatología Clínica y Estética privada
+  lead: Actualmente formo parte del Grupo Pedro Jaén. Podrás encontrarme en la sede de Serrano 143, Madrid.
+  horario_titulo: Horario y citas
+  modalidad: Presencial o virtual.
+  horario:
+    - { dia: Martes, horas: "10:00 – 13:30" }
+    - { dia: Miércoles, horas: "16:00 – 19:00" }
+  foto_alt: Edificio de Grupo Pedro Jaén en Serrano 143
+  correo_eyebrow: Por correo
+  correo_titulo: Escríbeme
+  correo_general: "Consultas generales:"
+  correo_empresas: "Asesoría científica para empresas:"
+
+en:
+  titulo: Contact
+  descripcion: Opening hours and appointments with Dr. Marta Urech, dermatologist at Grupo Pedro Jaén, Serrano 143, Madrid. Phone +34 914 31 78 61.
+  eyebrow: Contact
+  h1: Private medical and aesthetic dermatology practice
+  lead: I am currently part of Grupo Pedro Jaén. You can find me at their Serrano 143 clinic in Madrid.
+  horario_titulo: Hours and appointments
+  modalidad: In person or online.
+  horario:
+    - { dia: Tuesday, horas: "10:00 – 13:30" }
+    - { dia: Wednesday, horas: "16:00 – 19:00" }
+  foto_alt: Grupo Pedro Jaén building at Serrano 143
+  correo_eyebrow: By email
+  correo_titulo: Write to me
+  correo_general: "General enquiries:"
+  correo_empresas: "Scientific consulting for companies:"
+
+fr:
+  titulo: Contact
+  descripcion: Horaires et rendez-vous avec le Dr Marta Urech, dermatologue au Grupo Pedro Jaén, Serrano 143, Madrid. Téléphone +34 914 31 78 61.
+  eyebrow: Contact
+  h1: Cabinet privé de dermatologie médicale et esthétique
+  lead: Je fais actuellement partie du Grupo Pedro Jaén. Vous me trouverez dans leur centre du 143 rue Serrano, à Madrid.
+  horario_titulo: Horaires et rendez-vous
+  modalidad: En cabinet ou en ligne.
+  horario:
+    - { dia: Mardi, horas: "10 h 00 – 13 h 30" }
+    - { dia: Mercredi, horas: "16 h 00 – 19 h 00" }
+  foto_alt: Bâtiment du Grupo Pedro Jaén au 143 rue Serrano
+  correo_eyebrow: Par e-mail
+  correo_titulo: Écrivez-moi
+  correo_general: "Demandes générales :"
+  correo_empresas: "Conseil scientifique pour les entreprises :"
+
+it:
+  titulo: Contatti
+  descripcion: Orari e appuntamenti con la Dott.ssa Marta Urech, dermatologa presso il Grupo Pedro Jaén, Serrano 143, Madrid. Telefono +34 914 31 78 61.
+  eyebrow: Contatti
+  h1: Studio privato di Dermatologia Clinica ed Estetica
+  lead: Attualmente faccio parte del Grupo Pedro Jaén. Mi trovi nella sede di Serrano 143, a Madrid.
+  horario_titulo: Orari e appuntamenti
+  modalidad: In presenza o online.
+  horario:
+    - { dia: Martedì, horas: "10:00 – 13:30" }
+    - { dia: Mercoledì, horas: "16:00 – 19:00" }
+  foto_alt: Edificio del Grupo Pedro Jaén in Serrano 143
+  correo_eyebrow: Via email
+  correo_titulo: Scrivimi
+  correo_general: "Richieste generali:"
+  correo_empresas: "Consulenza scientifica per le aziende:"

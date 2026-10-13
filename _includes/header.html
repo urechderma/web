@@ -1,21 +1,27 @@
+{% assign ui = site.data.i18n[page.lang] %}
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <p class="topbar-info"><a href="tel:{{ site.contacto.telefono_enlace }}">{{ site.contacto.telefono }}</a><span class="addr" aria-hidden="true">·</span><span class="addr">{{ site.contacto.direccion }}</span></p>
+    {% include banderas.html %}
+  </div>
+</div>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Dra. Marta Urech, inicio">
-      <span class="brand-name">Dra. Marta Urech</span>
-      <span class="brand-tag">Dermatología</span>
+    <a class="brand" href="{% include url.html ref='inicio' %}">
+      <span class="brand-name">{{ ui.marca }}</span>
+      <span class="brand-tag">{{ ui.marca_tag }}</span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
-      <span class="sr-only">Menú</span>
+      <span class="sr-only">{{ ui.menu_boton }}</span>
       <span class="bars" aria-hidden="true"></span>
     </button>
-    <nav id="menu" class="nav" aria-label="Principal">
+    <nav id="menu" class="nav" aria-label="{{ ui.menu_aria }}">
       <ul>
-        {% for item in site.menu %}
-        {% assign prefijo = page.url | slice: 0, item.url.size %}
-        <li><a href="{{ item.url | relative_url }}"{% if prefijo == item.url %} aria-current="page"{% endif %}>{{ item.titulo }}</a></li>
+        {% for item in ui.menu %}
+        <li><a href="{% include url.html ref=item.ref %}"{% if page.ref == item.ref or page.layout == "post" and item.ref == "blog" %} aria-current="page"{% endif %}>{{ item.titulo }}</a></li>
         {% endfor %}
       </ul>
-      <a class="btn btn-small" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">Pedir cita</a>
+      <a class="btn btn-small" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">{{ ui.pedir_cita }}</a>
     </nav>
   </div>
 </header>

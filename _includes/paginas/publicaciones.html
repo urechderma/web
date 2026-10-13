@@ -1,0 +1,35 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}
+{% assign pubs = site.data.publicaciones %}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.eyebrow }}</p>
+    <h1>{{ t.h1 }}</h1>
+    <p class="lead">{{ t.lead }}</p>
+  </div>
+</section>
+
+<section class="pub-stats" aria-label="{{ t.resumen_aria }}">
+  <div class="wrap facts-grid facts-3">
+    <div class="fact"><span class="fact-num">{{ pubs.size }}</span><span class="fact-label">{{ t.num_texto }}</span></div>
+    <div class="fact"><span class="fact-num">JAMA · JAAD</span><span class="fact-label">{{ t.jama_texto }}</span></div>
+    <div class="fact"><span class="fact-num">JEADV</span><span class="fact-label">Journal of the European Academy of Dermatology and Venereology</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <ol class="pubs pubs-index">
+      {% for p in pubs %}
+      <li class="pub">
+        <h3>{% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.titulo }}</a>{% else %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pubmed }}/" target="_blank" rel="noopener">{{ p.titulo }}</a>{% endif %}</h3>
+        <p class="pub-authors">{{ p.autores | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+        <p class="pub-meta">
+          <em>{{ p.revista }}</em>
+          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ t.articulo }}</a>{% endif %}
+          {% if p.pubmed %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pubmed }}/" target="_blank" rel="noopener">PubMed</a>{% endif %}
+        </p>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

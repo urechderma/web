@@ -1,20 +1,35 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
+{%- assign ui = site.data.i18n[page.lang] -%}
+{%- if page.ref -%}{%- assign pd = site.data.paginas[page.ref][page.lang] -%}{%- endif -%}
+{%- if page.ref == "inicio" -%}
+  {%- capture titulo_pagina -%}{{ ui.marca }} · {{ ui.titulo_inicio }}{%- endcapture -%}
+{%- else -%}
+  {%- capture titulo_pagina -%}{{ pd.titulo | default: page.title }} · {{ ui.marca }}{%- endcapture -%}
+{%- endif -%}
+{%- assign descripcion = pd.descripcion | default: page.description | default: ui.descripcion -%}
+<html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.url == "/" %}
-  <title>{{ site.title }} · Dermatóloga en Madrid</title>
-  {% else %}
-  <title>{{ page.title }} · {{ site.title }}</title>
-  {% endif %}
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ titulo_pagina | strip_html }}</title>
+  <meta name="description" content="{{ descripcion | strip_html }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {%- if page.ref %}
+  {%- for l in site.data.i18n.idiomas %}
+  {%- assign alt = site.pages | where: "ref", page.ref | where: "lang", l | first %}
+  {%- if alt %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ alt.url | absolute_url }}">
+  {%- if l == "es" %}
+  <link rel="alternate" hreflang="x-default" href="{{ alt.url | absolute_url }}">
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}
+  {%- endif %}
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="es_ES">
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }} · Dermatóloga en Madrid{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:locale" content="{{ ui.locale }}">
+  <meta property="og:site_name" content="{{ ui.marca }}">
+  <meta property="og:title" content="{{ titulo_pagina | strip_html }}">
+  <meta property="og:description" content="{{ descripcion | strip_html }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ '/assets/img/og.jpg' | absolute_url }}">
   <meta name="theme-color" content="#17464c">
@@ -22,14 +37,14 @@
   <link rel="preload" href="{{ '/assets/fonts/fraunces.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/assets/fonts/montserrat.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  {% if page.url == "/" %}
+  {%- if page.ref == "inicio" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Physician",
     "name": "Dra. Marta Urech García de la Vega",
     "medicalSpecialty": "Dermatology",
-    "url": "{{ '/' | absolute_url }}",
+    "url": "{{ page.url | absolute_url }}",
     "image": "{{ '/assets/img/dra-marta-urech.jpg' | absolute_url }}",
     "telephone": "{{ site.contacto.telefono_enlace }}",
     "knowsLanguage": ["es", "en", "fr", "it"],
@@ -41,10 +56,10 @@
     }
   }
   </script>
-  {% endif %}
+  {%- endif %}
 </head>
 <body class="{{ page.body_class }}">
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido">{{ ui.saltar }}</a>
   {% include header.html %}
   <main id="contenido">
     {{ content }}
@@ -53,8 +68,7 @@
   <script>
     (function () {
       var btn = document.querySelector('.nav-toggle');
-      var nav = document.getElementById('menu');
-      if (!btn || !nav) return;
+      if (!btn) return;
       btn.addEventListener('click', function () {
         var open = btn.getAttribute('aria-expanded') === 'true';
         btn.setAttribute('aria-expanded', String(!open));

@@ -1,0 +1,48 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}
+<section class="page-head page-head-dark">
+  <div class="wrap">
+    <p class="eyebrow eyebrow-light">{{ t.eyebrow }}</p>
+    <h1>{{ t.h1 }}</h1>
+    <p class="lead">{{ t.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="pillars">
+      {% for p in t.pilares %}
+      <div class="pillar">
+        <span class="pillar-num">0{{ forloop.index }}</span>
+        <h3>{{ p.titulo }}</h3>
+        <p>{{ p.texto }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.exp_eyebrow }}</p>
+      <h2>{{ t.exp_titulo }}</h2>
+    </div>
+    <div class="prose">
+      <p>{{ t.exp_texto }}</p>
+      <p><a class="link" href="{% include url.html ref='sobre-mi' %}">{{ t.exp_enlace }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="cita">
+  <div class="wrap cita-inner">
+    <div>
+      <p class="eyebrow eyebrow-light">{{ t.contacto_eyebrow }}</p>
+      <h2>{{ t.contacto_titulo }}</h2>
+      <p>{{ t.contacto_texto }}</p>
+    </div>
+    <div class="cita-actions">
+      <a class="btn btn-light" href="mailto:{{ site.contacto.email_industria }}">{{ site.contacto.email_industria }}</a>
+    </div>
+  </div>
+</section>

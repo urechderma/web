@@ -1,0 +1,123 @@
+es:
+  titulo: Dermatología
+  descripcion: Dermatología clínica y estética en Madrid. Acné, rosácea, dermatitis, psoriasis, cáncer de piel, revisión de lunares y tratamientos estéticos.
+  eyebrow: Dermatología
+  h1: Dermatología clínica y estética
+  lead: En mi consulta ofrezco un cuidado integral de la piel que une el diagnóstico y tratamiento de patologías dermatológicas con procedimientos estéticos seleccionados, siempre bajo un enfoque personalizado, honesto y estrictamente basado en la evidencia científica.
+  clinica_eyebrow: Dermatología clínica
+  clinica_titulo: Enfermedades y condiciones de la piel
+  clinica_texto: En mi consulta atiendo pacientes con todo tipo de enfermedades y condiciones de la piel.
+  patologias:
+    - Acné vulgar
+    - Acné rosácea y dermatitis perioral
+    - Acné de la mujer adulta
+    - Cáncer de piel
+    - Dermatitis atópica
+    - Dermatitis irritativa
+    - Dermatitis seborreica
+    - "Infecciones cutáneas: impétigo, moluscos, verrugas víricas"
+    - Liquen plano
+    - Psoriasis
+    - Revisión de nevus melanocíticos (lunares)
+  nota_titulo: Patología genital femenina
+  nota_texto: Tengo un interés y formación especial en patología genital femenina. Creé e implanté la Unidad de Dermatología Ginecológica del Hospital Universitario Madrid Montepríncipe.
+  estetica_eyebrow: Dermatología estética
+  estetica_titulo: Estética con criterio médico
+  estetica_lead: Desde planificar tu rutina facial hasta tratamientos dirigidos con toxina botulínica, láser y nuevas tecnologías.
+  estetica:
+    - Rutina facial personalizada.
+    - Toxina botulínica.
+    - Láser y nuevas tecnologías.
+
+en:
+  titulo: Dermatology
+  descripcion: Medical and aesthetic dermatology in Madrid. Acne, rosacea, dermatitis, psoriasis, skin cancer, mole checks and aesthetic treatments.
+  eyebrow: Dermatology
+  h1: Medical and aesthetic dermatology
+  lead: My practice offers comprehensive skin care that combines the diagnosis and treatment of skin conditions with carefully selected aesthetic procedures, always with a personal, honest and strictly evidence-based approach.
+  clinica_eyebrow: Medical dermatology
+  clinica_titulo: Skin diseases and conditions
+  clinica_texto: I see patients with all kinds of skin diseases and conditions.
+  patologias:
+    - Acne vulgaris
+    - Rosacea and perioral dermatitis
+    - Adult female acne
+    - Skin cancer
+    - Atopic dermatitis
+    - Irritant dermatitis
+    - Seborrhoeic dermatitis
+    - "Skin infections: impetigo, molluscum, viral warts"
+    - Lichen planus
+    - Psoriasis
+    - Melanocytic naevi (mole) checks
+  nota_titulo: Female genital dermatology
+  nota_texto: I have a special interest and training in female genital skin conditions. I set up and launched the Gynaecological Dermatology Unit at Madrid Montepríncipe University Hospital.
+  estetica_eyebrow: Aesthetic dermatology
+  estetica_titulo: Aesthetics with medical judgement
+  estetica_lead: From planning your skincare routine to targeted treatments with botulinum toxin, lasers and new technologies.
+  estetica:
+    - Personalised skincare routine.
+    - Botulinum toxin.
+    - Lasers and new technologies.
+
+fr:
+  titulo: Dermatologie
+  descripcion: Dermatologie médicale et esthétique à Madrid. Acné, rosacée, dermatites, psoriasis, cancer de la peau, contrôle des grains de beauté et soins esthétiques.
+  eyebrow: Dermatologie
+  h1: Dermatologie médicale et esthétique
+  lead: Dans mon cabinet, je propose une prise en charge globale de la peau qui associe le diagnostic et le traitement des maladies dermatologiques à des actes esthétiques choisis avec soin, toujours selon une approche personnalisée, honnête et strictement fondée sur les preuves scientifiques.
+  clinica_eyebrow: Dermatologie médicale
+  clinica_titulo: Maladies et affections de la peau
+  clinica_texto: Je reçois des patients pour tout type de maladies et d’affections de la peau.
+  patologias:
+    - Acné vulgaire
+    - Rosacée et dermatite périorale
+    - Acné de la femme adulte
+    - Cancer de la peau
+    - Dermatite atopique
+    - Dermatite d’irritation
+    - Dermatite séborrhéique
+    - "Infections cutanées : impétigo, molluscum, verrues virales"
+    - Lichen plan
+    - Psoriasis
+    - Contrôle des nævus (grains de beauté)
+  nota_titulo: Dermatologie génitale féminine
+  nota_texto: J’ai un intérêt et une formation particulière en pathologie génitale féminine. J’ai créé et mis en place l’Unité de dermatologie gynécologique de l’Hôpital universitaire Madrid Montepríncipe.
+  estetica_eyebrow: Dermatologie esthétique
+  estetica_titulo: L’esthétique avec un regard médical
+  estetica_lead: De la construction de votre routine de soins aux traitements ciblés par toxine botulique, laser et nouvelles technologies.
+  estetica:
+    - Routine de soins personnalisée.
+    - Toxine botulique.
+    - Laser et nouvelles technologies.
+
+it:
+  titulo: Dermatologia
+  descripcion: Dermatologia clinica ed estetica a Madrid. Acne, rosacea, dermatiti, psoriasi, tumori della pelle, controllo dei nei e trattamenti estetici.
+  eyebrow: Dermatologia
+  h1: Dermatologia clinica ed estetica
+  lead: Nel mio studio offro una cura completa della pelle che unisce la diagnosi e il trattamento delle patologie dermatologiche a procedure estetiche selezionate, sempre con un approccio personalizzato, onesto e rigorosamente basato sulle evidenze scientifiche.
+  clinica_eyebrow: Dermatologia clinica
+  clinica_titulo: Malattie e condizioni della pelle
+  clinica_texto: Visito pazienti con ogni tipo di malattia e condizione della pelle.
+  patologias:
+    - Acne volgare
+    - Rosacea e dermatite periorale
+    - Acne della donna adulta
+    - Tumori della pelle
+    - Dermatite atopica
+    - Dermatite irritativa
+    - Dermatite seborroica
+    - "Infezioni cutanee: impetigine, mollusco contagioso, verruche virali"
+    - Lichen planus
+    - Psoriasi
+    - Controllo dei nevi melanocitici (nei)
+  nota_titulo: Dermatologia genitale femminile
+  nota_texto: Ho un interesse e una formazione specifica nella patologia genitale femminile. Ho creato e avviato l’Unità di Dermatologia Ginecologica dell’Ospedale Universitario Madrid Montepríncipe.
+  estetica_eyebrow: Dermatologia estetica
+  estetica_titulo: Estetica con criterio medico
+  estetica_lead: Dalla definizione della tua routine viso ai trattamenti mirati con tossina botulinica, laser e nuove tecnologie.
+  estetica:
+    - Routine viso personalizzata.
+    - Tossina botulinica.
+    - Laser e nuove tecnologie.

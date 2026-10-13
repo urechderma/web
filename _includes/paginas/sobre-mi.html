@@ -1,0 +1,72 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}
+<section class="page-head">
+  <div class="wrap page-head-grid">
+    <div>
+      <p class="eyebrow">{{ t.eyebrow }}</p>
+      <h1>{{ t.h1 }}</h1>
+      <p class="lead">{{ t.lead }}</p>
+      <p>{{ t.intro }}</p>
+    </div>
+    <figure class="page-head-photo">
+      <img src="{{ '/assets/img/dra-marta-urech.jpg' | relative_url }}" alt="{{ t.foto_alt }}" width="1024" height="576">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.clinica_eyebrow }}</p>
+      <h2>{{ t.clinica_titulo }}</h2>
+    </div>
+    <ol class="timeline">
+      {% for e in t.clinica %}
+      <li>
+        <span class="tl-date">{{ e.fecha }}</span>
+        <h3>{{ e.titulo }}</h3>
+        <p>{{ e.texto }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.industria_eyebrow }}</p>
+      <h2>{{ t.industria_titulo }}</h2>
+      <p class="muted">2016 – 2026</p>
+    </div>
+    <ol class="timeline">
+      {% for e in t.industria %}
+      <li>
+        <h3>{{ e.titulo | escape }}</h3>
+        <p>{{ e.texto }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.formacion_eyebrow }}</p>
+      <h2>{{ t.formacion_titulo }}</h2>
+    </div>
+    <div>
+      <ul class="list-check">
+        {% for f in t.formacion %}<li>{{ f }}</li>
+        {% endfor %}
+      </ul>
+      <h3 class="subhead">{{ t.idiomas_titulo }}</h3>
+      <dl class="langs-list">
+        {% for i in t.idiomas %}<div><dt>{{ i.idioma }}</dt><dd>{{ i.nivel }}</dd></div>
+        {% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+{% include cita.html %}

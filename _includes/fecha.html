@@ -1,3 +1,5 @@
-{%- assign meses = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," -%}
-{%- assign m = include.fecha | date: "%-m" | minus: 1 -%}
-{{- include.fecha | date: "%-d" }} de {{ meses[m] }} de {{ include.fecha | date: "%Y" -}}
+{%- assign _ui = site.data.i18n[page.lang] -%}
+{%- assign _m = include.fecha | date: "%-m" | minus: 1 -%}
+{%- assign _d = include.fecha | date: "%-d" -%}
+{%- assign _y = include.fecha | date: "%Y" -%}
+{{- _ui.fecha | replace: "%d", _d | replace: "%m", _ui.meses[_m] | replace: "%Y", _y -}}

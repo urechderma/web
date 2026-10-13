@@ -1,0 +1,35 @@
+es:
+  titulo: Blog
+  descripcion: Artículos de la Dra. Marta Urech sobre dermatología, cuidado de la piel y medicina basada en la evidencia.
+  eyebrow: Blog
+  h1: Piel, ciencia y <em>sentido común</em>
+  lead: Artículos sobre dermatología, cuidado de la piel y medicina basada en la evidencia.
+  vacio_titulo: Próximamente
+  vacio_texto: Muy pronto, los primeros artículos.
+
+en:
+  titulo: Blog
+  descripcion: Articles by Dr. Marta Urech on dermatology, skin care and evidence-based medicine.
+  eyebrow: Blog
+  h1: Skin, science and <em>common sense</em>
+  lead: Articles on dermatology, skin care and evidence-based medicine.
+  vacio_titulo: Coming soon
+  vacio_texto: The first articles will be published very soon.
+
+fr:
+  titulo: Blog
+  descripcion: Articles du Dr Marta Urech sur la dermatologie, les soins de la peau et la médecine fondée sur les preuves.
+  eyebrow: Blog
+  h1: Peau, science et <em>bon sens</em>
+  lead: Articles sur la dermatologie, les soins de la peau et la médecine fondée sur les preuves.
+  vacio_titulo: Bientôt
+  vacio_texto: Les premiers articles arrivent très prochainement.
+
+it:
+  titulo: Blog
+  descripcion: Articoli della Dott.ssa Marta Urech su dermatologia, cura della pelle e medicina basata sulle evidenze.
+  eyebrow: Blog
+  h1: Pelle, scienza e <em>buon senso</em>
+  lead: Articoli su dermatologia, cura della pelle e medicina basata sulle evidenze.
+  vacio_titulo: Prossimamente
+  vacio_texto: I primi articoli arriveranno molto presto.

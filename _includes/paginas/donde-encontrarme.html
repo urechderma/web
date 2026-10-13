@@ -1,0 +1,37 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}{% assign ui = site.data.i18n[page.lang] %}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.eyebrow }}</p>
+    <h1>{{ t.h1 }}</h1>
+  </div>
+</section>
+
+<section class="section section-flush">
+  <div class="wrap places">
+    <article class="place">
+      <img src="{{ '/assets/img/serrano-143.jpg' | relative_url }}" alt="{{ t.privada_alt }}" width="800" height="519" loading="lazy">
+      <div class="place-head">
+        <span class="card-kicker">{{ t.privada_kicker }}</span>
+        <h2>Grupo Pedro Jaén</h2>
+      </div>
+      <p class="place-address">{% include iconos/pin.svg %}<span>Calle Serrano 143, Madrid</span></p>
+      <div class="place-actions">
+        <a class="btn btn-ghost" href="{{ site.contacto.mapa_url }}" target="_blank" rel="noopener">{{ ui.como_llegar }}</a>
+        <a class="btn" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">{{ ui.pedir_cita }}</a>
+      </div>
+    </article>
+    <article class="place">
+      <img src="{{ '/assets/img/hospital-ramon-y-cajal.jpg' | relative_url }}" alt="{{ t.hospital_alt }}" width="730" height="473" loading="lazy">
+      <div class="place-head">
+        <span class="card-kicker">{{ t.publica_kicker }}</span>
+        <h2>{{ t.hospital }}</h2>
+      </div>
+      <p class="place-address">{% include iconos/pin.svg %}<span>Ctra. de Colmenar Viejo, km 9,100, Madrid</span></p>
+      <div class="place-actions">
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Hospital+Universitario+Ramon+y+Cajal+Madrid" target="_blank" rel="noopener">{{ ui.como_llegar }}</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+{% include cita.html %}

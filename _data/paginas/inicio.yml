@@ -1,0 +1,123 @@
+es:
+  titulo: Inicio
+  eyebrow: Dermatología clínica · Asesoría científica
+  h1: El cuidado de tu piel, respaldado por <em>la ciencia</em> y la experiencia clínica.
+  lead: Soy la Dra. Marta Urech, médico especialista en Dermatología en Madrid.
+  foto_alt: La Dra. Marta Urech en su consulta
+  cifras_aria: Trayectoria en cifras
+  cifras:
+    - { num: "2011–2015", texto: Especialidad MIR en el Hospital Universitario Ramón y Cajal }
+    - { num: 10 años, texto: de Medical Affairs en Roche Farma España }
+    - { num: Serrano 143, texto: Consulta privada en Grupo Pedro Jaén }
+    - { num: 4 idiomas, texto: Español, inglés, francés e italiano }
+  hola_eyebrow: Hola, soy Marta
+  hola_titulo: Una vocación que empezó en la universidad
+  hola_parrafos:
+    - La Dermatología ha sido mi pasión desde mi primera toma de contacto en la Universidad Autónoma de Madrid. Una vocación que tuve la oportunidad de consolidar al realizar mi especialidad (2011-2015) en el Hospital Universitario Ramón y Cajal.
+    - Impulsada por una constante inquietud por la innovación, di el salto a la industria farmacéutica en el Departamento Médico de Roche Farma España. A lo largo de esta etapa trabajé en áreas complejas como Hemofilia, Enfermedades Autoinmunes, Oftalmología y Oncología.
+    - Esta trayectoria me permitió entender la medicina desde un ángulo diferente, comprendiendo en profundidad el valor de la investigación clínica, la importancia de la medicina basada en la evidencia y el desarrollo de terapias innovadoras junto a grandes especialistas.
+    - Por eso hoy, en mi práctica dermatológica directa, aplico todo este conocimiento, rigor e innovación en beneficio de la salud de tu piel.
+  hola_enlace: Conoce mi trayectoria
+  que_eyebrow: Qué hago
+  que_titulo: Dos maneras de trabajar contigo
+  pacientes_kicker: Para pacientes
+  pacientes_titulo: Dermatología clínica y estética
+  pacientes_texto: Diagnóstico y tratamiento de enfermedades de la piel y procedimientos estéticos seleccionados, con un enfoque personalizado, honesto y basado en la evidencia.
+  pacientes_enlace: Ver tratamientos
+  industria_kicker: Para la industria
+  industria_titulo: Asesoría científica
+  industria_texto: "Asesoramiento experto e independiente a compañías farmacéuticas y biotecnológicas: estrategia médica, valor científico y necesidades médicas no cubiertas."
+  industria_enlace: Ver asesoría
+
+en:
+  titulo: Home
+  eyebrow: Medical dermatology · Scientific consulting
+  h1: Caring for your skin, backed by <em>science</em> and clinical experience.
+  lead: I am Dr. Marta Urech, a board-certified dermatologist in Madrid.
+  foto_alt: Dr. Marta Urech in her practice
+  cifras_aria: Career highlights
+  cifras:
+    - { num: "2011–2015", texto: Dermatology residency at Ramón y Cajal University Hospital }
+    - { num: 10 years, texto: in Medical Affairs at Roche Spain }
+    - { num: Serrano 143, texto: Private practice at Grupo Pedro Jaén }
+    - { num: 4 languages, texto: Spanish, English, French and Italian }
+  hola_eyebrow: Hello, I’m Marta
+  hola_titulo: A vocation that began at university
+  hola_parrafos:
+    - Dermatology has been my passion since I first encountered it at the Autonomous University of Madrid. I had the opportunity to consolidate that vocation during my specialist training (2011-2015) at Ramón y Cajal University Hospital.
+    - Driven by a constant interest in innovation, I moved into the pharmaceutical industry, joining the Medical Department of Roche Spain. During that time I worked in complex areas such as Haemophilia, Autoimmune Diseases, Ophthalmology and Oncology.
+    - This experience allowed me to see medicine from a different angle, gaining a deep understanding of the value of clinical research, the importance of evidence-based medicine and the development of innovative therapies alongside leading specialists.
+    - That is why today, in my clinical practice, I apply all this knowledge, rigour and innovation to the health of your skin.
+  hola_enlace: Read about my career
+  que_eyebrow: What I do
+  que_titulo: Two ways to work with me
+  pacientes_kicker: For patients
+  pacientes_titulo: Medical and aesthetic dermatology
+  pacientes_texto: Diagnosis and treatment of skin conditions and carefully selected aesthetic procedures, with a personal, honest and evidence-based approach.
+  pacientes_enlace: See treatments
+  industria_kicker: For industry
+  industria_titulo: Scientific consulting
+  industria_texto: "Expert, independent advice for pharmaceutical and biotech companies: medical strategy, scientific value and unmet medical needs."
+  industria_enlace: See consulting
+
+fr:
+  titulo: Accueil
+  eyebrow: Dermatologie clinique · Conseil scientifique
+  h1: Prendre soin de votre peau, avec l’appui de <em>la science</em> et de l’expérience clinique.
+  lead: Je suis le Dr Marta Urech, médecin spécialiste en dermatologie à Madrid.
+  foto_alt: Le Dr Marta Urech dans son cabinet
+  cifras_aria: Parcours en chiffres
+  cifras:
+    - { num: "2011–2015", texto: Internat de dermatologie à l’Hôpital universitaire Ramón y Cajal }
+    - { num: 10 ans, texto: en Medical Affairs chez Roche Espagne }
+    - { num: Serrano 143, texto: Cabinet privé au Grupo Pedro Jaén }
+    - { num: 4 langues, texto: Espagnol, anglais, français et italien }
+  hola_eyebrow: Bonjour, je suis Marta
+  hola_titulo: Une vocation née à l’université
+  hola_parrafos:
+    - La dermatologie est ma passion depuis mon premier contact avec elle à l’Université autonome de Madrid. J’ai pu consolider cette vocation pendant ma spécialisation (2011-2015) à l’Hôpital universitaire Ramón y Cajal.
+    - Animée par un intérêt constant pour l’innovation, j’ai rejoint l’industrie pharmaceutique au sein du Département médical de Roche Espagne. J’y ai travaillé dans des domaines complexes comme l’hémophilie, les maladies auto-immunes, l’ophtalmologie et l’oncologie.
+    - Ce parcours m’a permis de voir la médecine sous un autre angle, en comprenant en profondeur la valeur de la recherche clinique, l’importance de la médecine fondée sur les preuves et le développement de thérapies innovantes aux côtés de grands spécialistes.
+    - C’est pourquoi aujourd’hui, dans ma pratique dermatologique, je mets toutes ces connaissances, cette rigueur et cette innovation au service de la santé de votre peau.
+  hola_enlace: Découvrir mon parcours
+  que_eyebrow: Ce que je fais
+  que_titulo: Deux façons de travailler ensemble
+  pacientes_kicker: Pour les patients
+  pacientes_titulo: Dermatologie médicale et esthétique
+  pacientes_texto: Diagnostic et traitement des maladies de la peau et actes esthétiques choisis avec soin, selon une approche personnalisée, honnête et fondée sur les preuves.
+  pacientes_enlace: Voir les traitements
+  industria_kicker: Pour l’industrie
+  industria_titulo: Conseil scientifique
+  industria_texto: "Conseil expert et indépendant pour les laboratoires pharmaceutiques et biotechnologiques : stratégie médicale, valeur scientifique et besoins médicaux non couverts."
+  industria_enlace: Voir le conseil
+
+it:
+  titulo: Home
+  eyebrow: Dermatologia clinica · Consulenza scientifica
+  h1: La cura della tua pelle, sostenuta dalla <em>scienza</em> e dall’esperienza clinica.
+  lead: Sono la Dott.ssa Marta Urech, medico specialista in Dermatologia a Madrid.
+  foto_alt: La Dott.ssa Marta Urech nel suo studio
+  cifras_aria: Il percorso in cifre
+  cifras:
+    - { num: "2011–2015", texto: Specializzazione in Dermatologia all’Ospedale Universitario Ramón y Cajal }
+    - { num: 10 anni, texto: di Medical Affairs in Roche Spagna }
+    - { num: Serrano 143, texto: Studio privato presso il Grupo Pedro Jaén }
+    - { num: 4 lingue, texto: Spagnolo, inglese, francese e italiano }
+  hola_eyebrow: Ciao, sono Marta
+  hola_titulo: Una vocazione nata all’università
+  hola_parrafos:
+    - La Dermatologia è la mia passione fin dal primo contatto all’Università Autonoma di Madrid. Una vocazione che ho potuto consolidare durante la specializzazione (2011-2015) all’Ospedale Universitario Ramón y Cajal.
+    - Spinta da un costante interesse per l’innovazione, sono passata all’industria farmaceutica nel Dipartimento Medico di Roche Spagna, dove ho lavorato in aree complesse come Emofilia, Malattie Autoimmuni, Oftalmologia e Oncologia.
+    - Questo percorso mi ha permesso di vedere la medicina da un’altra prospettiva, comprendendo a fondo il valore della ricerca clinica, l’importanza della medicina basata sulle evidenze e lo sviluppo di terapie innovative accanto a grandi specialisti.
+    - Per questo oggi, nella mia pratica dermatologica, metto tutta questa conoscenza, rigore e innovazione al servizio della salute della tua pelle.
+  hola_enlace: Scopri il mio percorso
+  que_eyebrow: Di cosa mi occupo
+  que_titulo: Due modi di lavorare insieme
+  pacientes_kicker: Per i pazienti
+  pacientes_titulo: Dermatologia clinica ed estetica
+  pacientes_texto: Diagnosi e trattamento delle malattie della pelle e procedure estetiche selezionate, con un approccio personalizzato, onesto e basato sulle evidenze.
+  pacientes_enlace: Vedi i trattamenti
+  industria_kicker: Per l’industria
+  industria_titulo: Consulenza scientifica
+  industria_texto: "Consulenza esperta e indipendente per aziende farmaceutiche e biotecnologiche: strategia medica, valore scientifico e bisogni medici insoddisfatti."
+  industria_enlace: Vedi la consulenza

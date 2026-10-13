@@ -1,42 +1,6 @@
 ---
 layout: default
-title: Blog
+ref: blog
 permalink: /blog/
-description: Artículos de la Dra. Marta Urech sobre dermatología, cuidado de la piel y medicina basada en la evidencia.
 ---
-<section class="page-head">
-  <div class="wrap">
-    <p class="eyebrow">Blog</p>
-    <h1>Piel, ciencia y <em>sentido común</em></h1>
-    <p class="lead">Artículos sobre dermatología, cuidado de la piel y medicina basada en la evidencia.</p>
-  </div>
-</section>
-
-<section class="section section-flush">
-  <div class="wrap">
-    {% if site.posts.size > 0 %}
-    <div class="posts">
-      {% for post in site.posts %}
-      <a class="post-card" href="{{ post.url | relative_url }}">
-        {% if post.imagen %}
-        <img src="{{ post.imagen | relative_url }}" alt="" loading="lazy">
-        {% endif %}
-        <div class="post-card-body">
-          <span class="card-kicker">{% include fecha.html fecha=post.date %}{% if post.categoria %} · {{ post.categoria }}{% endif %}</span>
-          <h2>{{ post.title }}</h2>
-          <p>{{ post.resumen | default: post.excerpt | strip_html | truncatewords: 32 }}</p>
-          <span class="link">Leer artículo</span>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-    {% else %}
-    <div class="empty">
-      <h2>Próximamente</h2>
-      <p class="muted">Muy pronto, los primeros artículos.</p>
-    </div>
-    {% endif %}
-  </div>
-</section>
-
-{% include cita.html %}
+{% include paginas/blog.html %}

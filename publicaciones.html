@@ -1,40 +1,6 @@
 ---
 layout: default
-title: Publicaciones
+ref: publicaciones
 permalink: /publicaciones/
-description: Publicaciones científicas en dermatología de la Dra. Marta Urech García de la Vega en revistas como JAMA Dermatology, JAAD y JEADV.
 ---
-{% assign pubs = site.data.publicaciones %}
-<section class="page-head">
-  <div class="wrap">
-    <p class="eyebrow">Publicaciones</p>
-    <h1>Publicaciones científicas</h1>
-    <p class="lead">Artículos en revistas médicas y de dermatología, fruto de mi etapa clínica e investigadora en el Hospital Universitario Ramón y Cajal y de colaboraciones internacionales.</p>
-  </div>
-</section>
-
-<section class="pub-stats" aria-label="Resumen">
-  <div class="wrap facts-grid facts-3">
-    <div class="fact"><span class="fact-num">{{ pubs.size }}</span><span class="fact-label">publicaciones en dermatología</span></div>
-    <div class="fact"><span class="fact-num">JAMA · JAAD</span><span class="fact-label">JAMA Dermatology y Journal of the American Academy of Dermatology</span></div>
-    <div class="fact"><span class="fact-num">JEADV</span><span class="fact-label">Journal of the European Academy of Dermatology and Venereology</span></div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <ol class="pubs pubs-index">
-      {% for p in pubs %}
-      <li class="pub">
-        <h3>{% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.titulo }}</a>{% else %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pubmed }}/" target="_blank" rel="noopener">{{ p.titulo }}</a>{% endif %}</h3>
-        <p class="pub-authors">{{ p.autores | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
-        <p class="pub-meta">
-          <em>{{ p.revista }}</em>
-          {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">Artículo</a>{% endif %}
-          {% if p.pubmed %}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pubmed }}/" target="_blank" rel="noopener">PubMed</a>{% endif %}
-        </p>
-      </li>
-      {% endfor %}
-    </ol>
-  </div>
-</section>
+{% include paginas/publicaciones.html %}

@@ -1,0 +1,62 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}{% assign ui = site.data.i18n[page.lang] %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">{{ t.eyebrow }}</p>
+      <h1>{{ t.h1 }}</h1>
+      <p class="lead">{{ t.lead }}</p>
+      <div class="actions">
+        <a class="btn" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">{{ ui.pedir_cita }}</a>
+        <a class="btn btn-ghost" href="tel:{{ site.contacto.telefono_enlace }}">{{ site.contacto.telefono }}</a>
+      </div>
+      <p class="langs">{{ ui.idiomas_atencion }}</p>
+    </div>
+    <figure class="hero-photo">
+      <img src="{{ '/assets/img/dra-marta-urech.jpg' | relative_url }}" alt="{{ t.foto_alt }}" width="1024" height="576">
+    </figure>
+  </div>
+</section>
+
+<section class="facts" aria-label="{{ t.cifras_aria }}">
+  <div class="wrap facts-grid">
+    {% for c in t.cifras %}<div class="fact"><span class="fact-num">{{ c.num }}</span><span class="fact-label">{{ c.texto }}</span></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.hola_eyebrow }}</p>
+      <h2>{{ t.hola_titulo }}</h2>
+    </div>
+    <div class="prose">
+      {% for p in t.hola_parrafos %}<p>{{ p }}</p>
+      {% endfor %}
+      <p><a class="link" href="{% include url.html ref='sobre-mi' %}">{{ t.hola_enlace }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.que_eyebrow }}</p>
+    <h2>{{ t.que_titulo }}</h2>
+    <div class="cards">
+      <a class="card" href="{% include url.html ref='dermatologia' %}">
+        <span class="card-kicker card-kicker-icon"><span class="card-icon">{% include iconos/paciente.svg %}</span>{{ t.pacientes_kicker }}</span>
+        <h3>{{ t.pacientes_titulo }}</h3>
+        <p>{{ t.pacientes_texto }}</p>
+        <span class="link">{{ t.pacientes_enlace }}</span>
+      </a>
+      <a class="card" href="{% include url.html ref='asesoria' %}">
+        <span class="card-kicker card-kicker-icon"><span class="card-icon">{% include iconos/industria.svg %}</span>{{ t.industria_kicker }}</span>
+        <h3>{{ t.industria_titulo }}</h3>
+        <p>{{ t.industria_texto }}</p>
+        <span class="link">{{ t.industria_enlace }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% include cita.html %}

@@ -1,0 +1,14 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}{% assign ui = site.data.i18n[page.lang] %}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.eyebrow }}</p>
+    <h1>{{ t.titulo }}</h1>
+  </div>
+</section>
+
+<section class="section section-flush">
+  <div class="wrap prose legal-text">
+    {% if ui.traduccion != "" %}<p class="legal-note">{{ ui.traduccion }}</p>{% endif %}
+    {{ t.cuerpo }}
+  </div>
+</section>

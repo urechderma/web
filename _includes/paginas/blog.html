@@ -1,0 +1,38 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}{% assign ui = site.data.i18n[page.lang] %}
+{% assign posts = site.posts | where: "lang", page.lang %}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.eyebrow }}</p>
+    <h1>{{ t.h1 }}</h1>
+    <p class="lead">{{ t.lead }}</p>
+  </div>
+</section>
+
+<section class="section section-flush">
+  <div class="wrap">
+    {% if posts.size > 0 %}
+    <div class="posts">
+      {% for post in posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        {% if post.imagen %}
+        <img src="{{ post.imagen | relative_url }}" alt="" loading="lazy">
+        {% endif %}
+        <div class="post-card-body">
+          <span class="card-kicker">{% include fecha.html fecha=post.date %}{% if post.categoria %} · {{ post.categoria }}{% endif %}</span>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.resumen | default: post.excerpt | strip_html | truncatewords: 32 }}</p>
+          <span class="link">{{ ui.articulo.leer }}</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty">
+      <h2>{{ t.vacio_titulo }}</h2>
+      <p class="muted">{{ t.vacio_texto }}</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% include cita.html %}

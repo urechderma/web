@@ -13,22 +13,6 @@ contacto:
   direccion: Calle Serrano 143, Madrid
   mapa_url: "https://www.google.com/maps/search/?api=1&query=Grupo+Pedro+Jaen+Serrano+143+Madrid"
 
-menu:
-  - titulo: Sobre mí
-    url: /sobre-mi/
-  - titulo: Dermatología
-    url: /dermatologia/
-  - titulo: Asesoría
-    url: /asesoria/
-  - titulo: Publicaciones
-    url: /publicaciones/
-  - titulo: Blog
-    url: /blog/
-  - titulo: Dónde encontrarme
-    url: /donde-encontrarme/
-  - titulo: Contacto
-    url: /contacto/
-
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -36,12 +20,31 @@ plugins:
 feed:
   path: blog/feed.xml
 
+# Idioma de cada página según su carpeta: raíz = español, en/, fr/, it/.
+# El menú y los textos comunes están en _data/i18n.yml; los de cada página, en _data/paginas/.
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: es
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+  - scope:
+      path: "it"
+    values:
+      lang: it
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+      lang: es
       permalink: /blog/:title/
 
 exclude:

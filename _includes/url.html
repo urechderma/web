@@ -1,0 +1,4 @@
+{%- comment -%}Dirección de la página con ref=include.ref en el idioma actual (o include.lang).{%- endcomment -%}
+{%- assign _l = include.lang | default: page.lang -%}
+{%- assign _p = site.pages | where: "ref", include.ref | where: "lang", _l | first -%}
+{{- _p.url | relative_url -}}

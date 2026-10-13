@@ -1,0 +1,43 @@
+es:
+  titulo: Dónde encontrarme
+  descripcion: Centros de trabajo de la Dra. Marta Urech en Madrid. Grupo Pedro Jaén (Serrano 143) y Hospital Universitario Ramón y Cajal.
+  eyebrow: Dónde encontrarme
+  h1: Centros de trabajo
+  privada_kicker: Consulta privada
+  privada_alt: Fachada de Grupo Pedro Jaén en Serrano 143, Madrid
+  publica_kicker: Sanidad pública
+  hospital: Hospital Universitario Ramón y Cajal
+  hospital_alt: Hospital Universitario Ramón y Cajal
+
+en:
+  titulo: Locations
+  descripcion: Where Dr. Marta Urech works in Madrid. Grupo Pedro Jaén (Serrano 143) and Ramón y Cajal University Hospital.
+  eyebrow: Locations
+  h1: Where I work
+  privada_kicker: Private practice
+  privada_alt: Grupo Pedro Jaén building at Serrano 143, Madrid
+  publica_kicker: Public healthcare
+  hospital: Ramón y Cajal University Hospital
+  hospital_alt: Ramón y Cajal University Hospital
+
+fr:
+  titulo: Où me trouver
+  descripcion: Lieux d’exercice du Dr Marta Urech à Madrid. Grupo Pedro Jaén (Serrano 143) et Hôpital universitaire Ramón y Cajal.
+  eyebrow: Où me trouver
+  h1: Lieux d’exercice
+  privada_kicker: Cabinet privé
+  privada_alt: Façade du Grupo Pedro Jaén au 143 rue Serrano, Madrid
+  publica_kicker: Secteur public
+  hospital: Hôpital universitaire Ramón y Cajal
+  hospital_alt: Hôpital universitaire Ramón y Cajal
+
+it:
+  titulo: Dove trovarmi
+  descripcion: Dove lavora la Dott.ssa Marta Urech a Madrid. Grupo Pedro Jaén (Serrano 143) e Ospedale Universitario Ramón y Cajal.
+  eyebrow: Dove trovarmi
+  h1: Dove lavoro
+  privada_kicker: Studio privato
+  privada_alt: Facciata del Grupo Pedro Jaén in Serrano 143, Madrid
+  publica_kicker: Sanità pubblica
+  hospital: Ospedale Universitario Ramón y Cajal
+  hospital_alt: Ospedale Universitario Ramón y Cajal

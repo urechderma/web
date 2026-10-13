@@ -1,0 +1,46 @@
+{% assign t = site.data.paginas[page.ref][page.lang] %}
+<section class="page-head page-head-skin">
+  <div class="wrap">
+    <p class="eyebrow">{{ t.eyebrow }}</p>
+    <h1>{{ t.h1 }}</h1>
+    <p class="lead">{{ t.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.clinica_eyebrow }}</p>
+      <h2>{{ t.clinica_titulo }}</h2>
+      <p class="muted">{{ t.clinica_texto }}</p>
+    </div>
+    <div>
+      <ul class="chips">
+        {% for p in t.patologias %}<li>{{ p }}</li>
+        {% endfor %}
+      </ul>
+      <div class="note">
+        <h3>{{ t.nota_titulo }}</h3>
+        <p>{{ t.nota_texto }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">{{ t.estetica_eyebrow }}</p>
+      <h2>{{ t.estetica_titulo }}</h2>
+    </div>
+    <div class="prose">
+      <p class="lead">{{ t.estetica_lead }}</p>
+      <ul class="list-check">
+        {% for e in t.estetica %}<li>{{ e }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% include cita.html %}

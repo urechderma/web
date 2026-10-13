@@ -1,0 +1,67 @@
+es:
+  titulo: Aviso legal
+  eyebrow: Información legal
+  cuerpo: |
+    <h2>Datos identificativos y del dominio</h2>
+    <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se facilitan los siguientes datos:</p>
+    <ul>
+      <li><strong>Titular de la web:</strong> Dra. Marta Urech García de la Vega.</li>
+      <li><strong>Domicilio profesional:</strong> Calle Serrano, 143, Madrid.</li>
+      <li><strong>Correo electrónico de contacto:</strong> <a href="mailto:contactoweb@urechderma.com">contactoweb@urechderma.com</a>.</li>
+      <li><strong>Nombre de dominio:</strong> www.urechderma.com.</li>
+      <li><strong>Colegio Profesional:</strong> Ilustre Colegio Oficial de Médicos de Madrid (ICOMEM).</li>
+      <li><strong>Número de colegiada:</strong> 282867305.</li>
+      <li><strong>Titulación académica:</strong> Licenciada en Medicina y Especialista en Dermatología Médico-Quirúrgica y Venereología.</li>
+      <li><strong>Proveedor de alojamiento (hosting):</strong> GitHub, Inc. (88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos), mediante el servicio GitHub Pages.</li>
+    </ul>
+
+en:
+  titulo: Legal notice
+  eyebrow: Legal information
+  cuerpo: |
+    <h2>Website owner and domain details</h2>
+    <p>In accordance with Article 10 of Spanish Law 34/2002 of 11 July on Information Society Services and Electronic Commerce (LSSI-CE), the following information is provided:</p>
+    <ul>
+      <li><strong>Website owner:</strong> Dr. Marta Urech García de la Vega.</li>
+      <li><strong>Professional address:</strong> Calle Serrano, 143, Madrid (Spain).</li>
+      <li><strong>Contact email:</strong> <a href="mailto:contactoweb@urechderma.com">contactoweb@urechderma.com</a>.</li>
+      <li><strong>Domain name:</strong> www.urechderma.com.</li>
+      <li><strong>Professional body:</strong> Ilustre Colegio Oficial de Médicos de Madrid (ICOMEM), the Madrid Medical Association.</li>
+      <li><strong>Registration number:</strong> 282867305.</li>
+      <li><strong>Qualifications:</strong> Degree in Medicine and Specialist in Medical and Surgical Dermatology and Venereology.</li>
+      <li><strong>Hosting provider:</strong> GitHub, Inc. (88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States), through its GitHub Pages service.</li>
+    </ul>
+
+fr:
+  titulo: Mentions légales
+  eyebrow: Informations légales
+  cuerpo: |
+    <h2>Identification du titulaire et du domaine</h2>
+    <p>Conformément à l’article 10 de la loi espagnole 34/2002 du 11 juillet sur les services de la société de l’information et le commerce électronique (LSSI-CE), les informations suivantes sont communiquées :</p>
+    <ul>
+      <li><strong>Titulaire du site :</strong> Dr Marta Urech García de la Vega.</li>
+      <li><strong>Adresse professionnelle :</strong> Calle Serrano, 143, Madrid (Espagne).</li>
+      <li><strong>E-mail de contact :</strong> <a href="mailto:contactoweb@urechderma.com">contactoweb@urechderma.com</a>.</li>
+      <li><strong>Nom de domaine :</strong> www.urechderma.com.</li>
+      <li><strong>Ordre professionnel :</strong> Ilustre Colegio Oficial de Médicos de Madrid (ICOMEM), l’Ordre des médecins de Madrid.</li>
+      <li><strong>Numéro d’inscription :</strong> 282867305.</li>
+      <li><strong>Diplômes :</strong> Diplôme de médecine et spécialité en dermatologie médico-chirurgicale et vénéréologie.</li>
+      <li><strong>Hébergeur :</strong> GitHub, Inc. (88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis), via son service GitHub Pages.</li>
+    </ul>
+
+it:
+  titulo: Note legali
+  eyebrow: Informazioni legali
+  cuerpo: |
+    <h2>Dati identificativi e del dominio</h2>
+    <p>Ai sensi dell’articolo 10 della legge spagnola 34/2002, dell’11 luglio, sui servizi della società dell’informazione e sul commercio elettronico (LSSI-CE), si forniscono i seguenti dati:</p>
+    <ul>
+      <li><strong>Titolare del sito:</strong> Dott.ssa Marta Urech García de la Vega.</li>
+      <li><strong>Domicilio professionale:</strong> Calle Serrano, 143, Madrid (Spagna).</li>
+      <li><strong>Email di contatto:</strong> <a href="mailto:contactoweb@urechderma.com">contactoweb@urechderma.com</a>.</li>
+      <li><strong>Nome di dominio:</strong> www.urechderma.com.</li>
+      <li><strong>Ordine professionale:</strong> Ilustre Colegio Oficial de Médicos de Madrid (ICOMEM), l’Ordine dei Medici di Madrid.</li>
+      <li><strong>Numero di iscrizione:</strong> 282867305.</li>
+      <li><strong>Titoli accademici:</strong> Laurea in Medicina e Specializzazione in Dermatologia Medico-Chirurgica e Venereologia.</li>
+      <li><strong>Fornitore di hosting:</strong> GitHub, Inc. (88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Stati Uniti), tramite il servizio GitHub Pages.</li>
+    </ul>

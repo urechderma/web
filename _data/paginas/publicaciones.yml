@@ -1,0 +1,43 @@
+es:
+  titulo: Publicaciones
+  descripcion: Publicaciones científicas en dermatología de la Dra. Marta Urech García de la Vega en revistas como JAMA Dermatology, JAAD y JEADV.
+  eyebrow: Publicaciones
+  h1: Publicaciones científicas
+  lead: Artículos en revistas médicas y de dermatología, fruto de mi etapa clínica e investigadora en el Hospital Universitario Ramón y Cajal y de colaboraciones internacionales.
+  resumen_aria: Resumen
+  num_texto: publicaciones en dermatología
+  jama_texto: JAMA Dermatology y Journal of the American Academy of Dermatology
+  articulo: Artículo
+
+en:
+  titulo: Publications
+  descripcion: Scientific publications in dermatology by Dr. Marta Urech García de la Vega in journals such as JAMA Dermatology, JAAD and JEADV.
+  eyebrow: Publications
+  h1: Scientific publications
+  lead: Articles in medical and dermatology journals, resulting from my clinical and research work at Ramón y Cajal University Hospital and international collaborations.
+  resumen_aria: Summary
+  num_texto: publications in dermatology
+  jama_texto: JAMA Dermatology and Journal of the American Academy of Dermatology
+  articulo: Article
+
+fr:
+  titulo: Publications
+  descripcion: Publications scientifiques en dermatologie du Dr Marta Urech García de la Vega dans des revues comme JAMA Dermatology, JAAD et JEADV.
+  eyebrow: Publications
+  h1: Publications scientifiques
+  lead: Articles parus dans des revues médicales et de dermatologie, issus de mon activité clinique et de recherche à l’Hôpital universitaire Ramón y Cajal et de collaborations internationales.
+  resumen_aria: Résumé
+  num_texto: publications en dermatologie
+  jama_texto: JAMA Dermatology et Journal of the American Academy of Dermatology
+  articulo: Article
+
+it:
+  titulo: Pubblicazioni
+  descripcion: Pubblicazioni scientifiche in dermatologia della Dott.ssa Marta Urech García de la Vega su riviste come JAMA Dermatology, JAAD e JEADV.
+  eyebrow: Pubblicazioni
+  h1: Pubblicazioni scientifiche
+  lead: Articoli su riviste mediche e di dermatologia, frutto della mia attività clinica e di ricerca all’Ospedale Universitario Ramón y Cajal e di collaborazioni internazionali.
+  resumen_aria: Sintesi
+  num_texto: pubblicazioni in dermatologia
+  jama_texto: JAMA Dermatology e Journal of the American Academy of Dermatology
+  articulo: Articolo

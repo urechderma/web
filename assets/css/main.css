@@ -91,7 +91,7 @@ p { margin: 0 0 1em; }
 
 /* Botones y enlaces */
 .btn {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center; white-space: nowrap;
   gap: .5em;
   padding: .85em 1.6em;
   border-radius: 999px;
@@ -120,6 +120,19 @@ p { margin: 0 0 1em; }
 }
 .link::after { content: " →"; }
 
+/* Franja superior: teléfono, dirección y banderas */
+.topbar { background: var(--teal-deep); color: rgba(255,255,255,.82); font-size: .8rem; }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 38px; }
+.topbar-info { margin: 0; display: flex; gap: 10px; align-items: center; white-space: nowrap; overflow: hidden; }
+.topbar-info a { color: #fff; text-decoration: none; }
+.topbar-info a:hover { text-decoration: underline; }
+.langs-switch { display: flex; align-items: center; gap: 6px; list-style: none; margin: 0 0 0 auto; padding: 0; }
+.langs-switch a { display: block; padding: 4px; border-radius: 5px; line-height: 0; opacity: .55; transition: opacity .2s, background .2s; }
+.langs-switch a:hover { opacity: 1; background: rgba(255,255,255,.1); }
+.langs-switch a[aria-current="true"] { opacity: 1; background: rgba(255,255,255,.14); }
+.flag { display: block; width: 22px; height: 15px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,.25); }
+.legal-note { background: var(--sand); border-radius: 12px; padding: 14px 18px; font-size: .9rem; color: var(--ink-soft); }
+
 /* Cabecera */
 .site-header {
   position: sticky; top: 0; z-index: 50;
@@ -129,12 +142,12 @@ p { margin: 0 0 1em; }
   border-bottom: 1px solid var(--line);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 24px; }
-.brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.1; }
+.brand { flex: none; white-space: nowrap; display: flex; flex-direction: column; text-decoration: none; line-height: 1.1; }
 .brand-name { font-family: var(--serif); font-size: 1.35rem; color: var(--teal-deep); }
 .brand-tag { font-size: .68rem; letter-spacing: .28em; text-transform: uppercase; color: var(--teal); margin-top: 4px; }
 .nav { display: flex; align-items: center; gap: 28px; }
 .nav ul { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; }
-.nav ul a { color: var(--ink); text-decoration: none; font-size: .92rem; font-weight: 500; padding: 6px 0; border-bottom: 1.5px solid transparent; }
+.nav ul a { white-space: nowrap; color: var(--ink); text-decoration: none; font-size: .92rem; font-weight: 500; padding: 6px 0; border-bottom: 1.5px solid transparent; }
 .nav ul a:hover, .nav ul a[aria-current="page"] { color: var(--teal-deep); border-bottom-color: var(--teal); }
 .nav-toggle { display: none; }
 
@@ -338,7 +351,7 @@ p { margin: 0 0 1em; }
 .footer-legal a:hover { color: #fff; text-decoration: underline; }
 
 /* Tableta */
-@media (max-width: 1100px) {
+@media (max-width: 1260px) {
   .nav-toggle {
     display: inline-flex; align-items: center; justify-content: center;
     width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 12px;
@@ -389,6 +402,8 @@ p { margin: 0 0 1em; }
 
 /* Móvil */
 @media (max-width: 560px) {
+  .topbar-info span, .topbar-info { font-size: .78rem; }
+  .topbar-info .addr { display: none; }
   body { font-size: 16px; }
   .wrap { padding: 0 16px; }
   .header-inner { height: 68px; }

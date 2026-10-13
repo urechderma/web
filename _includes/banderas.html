@@ -1,0 +1,9 @@
+{%- comment -%}Selector de idioma: lleva a la misma página en el otro idioma.{%- endcomment -%}
+<ul class="langs-switch" aria-label="{{ site.data.i18n[page.lang].idioma_aria }}">
+  {%- for l in site.data.i18n.idiomas -%}
+  {%- assign alt = nil -%}
+  {%- if page.ref -%}{%- assign alt = site.pages | where: "ref", page.ref | where: "lang", l | first -%}{%- endif -%}
+  {%- unless alt -%}{%- assign alt = site.pages | where: "ref", "inicio" | where: "lang", l | first -%}{%- endunless -%}
+  <li><a href="{{ alt.url | relative_url }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ site.data.i18n[l].nombre }}"{% if l == page.lang %} aria-current="true"{% endif %}>{% include banderas/{{ l }}.svg %}<span class="sr-only">{{ site.data.i18n[l].nombre }}</span></a></li>
+  {%- endfor -%}
+</ul>

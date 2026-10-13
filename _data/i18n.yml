@@ -1,0 +1,192 @@
+# Textos comunes de la web en cada idioma (menú, botones, pie, bloque de cita).
+# Los textos de cada página están en _data/paginas/.
+
+idiomas: [es, en, fr, it]
+
+es:
+  nombre: Español
+  locale: es_ES
+  marca: Dra. Marta Urech
+  marca_tag: Dermatología
+  titulo_inicio: Dermatóloga en Madrid
+  descripcion: Dermatología clínica y estética en Madrid y asesoría científica para la industria farmacéutica y biotecnológica.
+  saltar: Saltar al contenido
+  menu_boton: Menú
+  menu_aria: Principal
+  idioma_aria: Idioma
+  pedir_cita: Pedir cita
+  reservar: Reservar online
+  llamar: Llamar al
+  como_llegar: Cómo llegar
+  abrir_maps: Abrir en Google Maps
+  idiomas_atencion: Atiendo en español, English, français e italiano.
+  menu:
+    - { titulo: Sobre mí, ref: sobre-mi }
+    - { titulo: Dermatología, ref: dermatologia }
+    - { titulo: Asesoría, ref: asesoria }
+    - { titulo: Publicaciones, ref: publicaciones }
+    - { titulo: Blog, ref: blog }
+    - { titulo: Dónde encontrarme, ref: donde-encontrarme }
+    - { titulo: Contacto, ref: contacto }
+  cita:
+    eyebrow: Cita previa
+    titulo: ¿Hablamos de tu piel?
+    texto: Consulta presencial o virtual en Grupo Pedro Jaén, Serrano 143, Madrid.
+  pie:
+    especialidad: Médico especialista en Dermatología Médico-Quirúrgica y Venereología.
+    colegiada: Colegiada nº 282867305 · ICOMEM
+    consulta: Consulta
+    contacto: Contacto
+    asesoria: Asesoría científica
+    derechos: Todos los derechos reservados.
+    aviso: Aviso legal
+    privacidad: Política de privacidad
+    cookies: Política de cookies
+  meses: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+  fecha: "%d de %m de %Y"
+  articulo:
+    leer: Leer artículo
+    volver: Volver al blog
+    aviso: Este artículo tiene carácter divulgativo y no sustituye una consulta médica. Si tienes dudas sobre tu piel, consulta con tu dermatólogo.
+  traduccion: ""
+
+en:
+  nombre: English
+  locale: en_GB
+  marca: Dr. Marta Urech
+  marca_tag: Dermatology
+  titulo_inicio: Dermatologist in Madrid
+  descripcion: Medical and aesthetic dermatology in Madrid and scientific consulting for the pharmaceutical and biotech industry.
+  saltar: Skip to content
+  menu_boton: Menu
+  menu_aria: Main
+  idioma_aria: Language
+  pedir_cita: Book an appointment
+  reservar: Book online
+  llamar: Call
+  como_llegar: Directions
+  abrir_maps: Open in Google Maps
+  idiomas_atencion: I see patients in Spanish, English, French and Italian.
+  menu:
+    - { titulo: About me, ref: sobre-mi }
+    - { titulo: Dermatology, ref: dermatologia }
+    - { titulo: Consulting, ref: asesoria }
+    - { titulo: Publications, ref: publicaciones }
+    - { titulo: Blog, ref: blog }
+    - { titulo: Locations, ref: donde-encontrarme }
+    - { titulo: Contact, ref: contacto }
+  cita:
+    eyebrow: Appointments
+    titulo: Shall we talk about your skin?
+    texto: In-person or online consultations at Grupo Pedro Jaén, Serrano 143, Madrid.
+  pie:
+    especialidad: Board-certified dermatologist (Medical and Surgical Dermatology and Venereology).
+    colegiada: Madrid Medical Association (ICOMEM) registration no. 282867305
+    consulta: Practice
+    contacto: Contact
+    asesoria: Scientific consulting
+    derechos: All rights reserved.
+    aviso: Legal notice
+    privacidad: Privacy policy
+    cookies: Cookie policy
+  meses: [January, February, March, April, May, June, July, August, September, October, November, December]
+  fecha: "%d %m %Y"
+  articulo:
+    leer: Read article
+    volver: Back to the blog
+    aviso: This article is for general information only and does not replace a medical consultation. If you have questions about your skin, please see your dermatologist.
+  traduccion: This is a courtesy translation. In case of any discrepancy, the Spanish version shall prevail.
+
+fr:
+  nombre: Français
+  locale: fr_FR
+  marca: Dr Marta Urech
+  marca_tag: Dermatologie
+  titulo_inicio: Dermatologue à Madrid
+  descripcion: Dermatologie médicale et esthétique à Madrid et conseil scientifique pour l’industrie pharmaceutique et biotechnologique.
+  saltar: Aller au contenu
+  menu_boton: Menu
+  menu_aria: Principal
+  idioma_aria: Langue
+  pedir_cita: Prendre rendez-vous
+  reservar: Réserver en ligne
+  llamar: Appeler le
+  como_llegar: Itinéraire
+  abrir_maps: Ouvrir dans Google Maps
+  idiomas_atencion: Je consulte en espagnol, anglais, français et italien.
+  menu:
+    - { titulo: À propos, ref: sobre-mi }
+    - { titulo: Dermatologie, ref: dermatologia }
+    - { titulo: Conseil, ref: asesoria }
+    - { titulo: Publications, ref: publicaciones }
+    - { titulo: Blog, ref: blog }
+    - { titulo: Où me trouver, ref: donde-encontrarme }
+    - { titulo: Contact, ref: contacto }
+  cita:
+    eyebrow: Rendez-vous
+    titulo: Et si nous parlions de votre peau ?
+    texto: Consultation en cabinet ou en ligne au Grupo Pedro Jaén, Serrano 143, Madrid.
+  pie:
+    especialidad: Médecin spécialiste en dermatologie médico-chirurgicale et vénéréologie.
+    colegiada: Inscrite à l’Ordre des médecins de Madrid (ICOMEM) sous le nº 282867305
+    consulta: Cabinet
+    contacto: Contact
+    asesoria: Conseil scientifique
+    derechos: Tous droits réservés.
+    aviso: Mentions légales
+    privacidad: Politique de confidentialité
+    cookies: Politique de cookies
+  meses: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+  fecha: "%d %m %Y"
+  articulo:
+    leer: Lire l’article
+    volver: Retour au blog
+    aviso: Cet article a une vocation informative et ne remplace pas une consultation médicale. Pour toute question sur votre peau, consultez votre dermatologue.
+  traduccion: Ceci est une traduction de courtoisie. En cas de divergence, la version espagnole fait foi.
+
+it:
+  nombre: Italiano
+  locale: it_IT
+  marca: Dott.ssa Marta Urech
+  marca_tag: Dermatologia
+  titulo_inicio: Dermatologa a Madrid
+  descripcion: Dermatologia clinica ed estetica a Madrid e consulenza scientifica per l’industria farmaceutica e biotecnologica.
+  saltar: Vai al contenuto
+  menu_boton: Menu
+  menu_aria: Principale
+  idioma_aria: Lingua
+  pedir_cita: Prenota una visita
+  reservar: Prenota online
+  llamar: Chiama il
+  como_llegar: Indicazioni
+  abrir_maps: Apri in Google Maps
+  idiomas_atencion: Visito in spagnolo, inglese, francese e italiano.
+  menu:
+    - { titulo: Chi sono, ref: sobre-mi }
+    - { titulo: Dermatologia, ref: dermatologia }
+    - { titulo: Consulenza, ref: asesoria }
+    - { titulo: Pubblicazioni, ref: publicaciones }
+    - { titulo: Blog, ref: blog }
+    - { titulo: Dove trovarmi, ref: donde-encontrarme }
+    - { titulo: Contatti, ref: contacto }
+  cita:
+    eyebrow: Appuntamenti
+    titulo: Parliamo della tua pelle?
+    texto: Visite in presenza o online presso il Grupo Pedro Jaén, Serrano 143, Madrid.
+  pie:
+    especialidad: Medico specialista in Dermatologia Medico-Chirurgica e Venereologia.
+    colegiada: Iscritta all’Ordine dei Medici di Madrid (ICOMEM) con il n. 282867305
+    consulta: Studio
+    contacto: Contatti
+    asesoria: Consulenza scientifica
+    derechos: Tutti i diritti riservati.
+    aviso: Note legali
+    privacidad: Informativa sulla privacy
+    cookies: Cookie policy
+  meses: [gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre]
+  fecha: "%d %m %Y"
+  articulo:
+    leer: Leggi l’articolo
+    volver: Torna al blog
+    aviso: Questo articolo ha carattere divulgativo e non sostituisce una visita medica. Per qualsiasi dubbio sulla tua pelle, rivolgiti al tuo dermatologo.
+  traduccion: La presente è una traduzione di cortesia. In caso di discrepanza, prevale la versione spagnola.
