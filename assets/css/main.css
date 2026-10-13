@@ -219,6 +219,16 @@ p { margin: 0 0 1em; }
   position: absolute; width: 32px; height: 27.713px;
   clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);
   background-repeat: repeat, no-repeat;
+  --tx: 0px; --ty: 0px; --s: 1;
+  transform: translate(var(--tx), var(--ty)) rotate(var(--r)) scale(var(--s));
+  animation: hex-flota var(--dur) ease-in-out var(--del) infinite alternate;
+}
+.hex-sueltos span.grieta { --s: .9; }
+@keyframes hex-flota {
+  to { transform: translate(calc(var(--tx) + var(--dx)), calc(var(--ty) + var(--dy))) rotate(calc(var(--r) + var(--dr))) scale(var(--s)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hex-sueltos span { animation: none; }
 }
 
 /* Bloque de cita: turquesa a la izquierda y piel nítida a la derecha, con la curva de la portada */
