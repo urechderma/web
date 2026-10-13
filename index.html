@@ -51,13 +51,15 @@ body_class: home
     <p class="eyebrow">Qué hago</p>
     <h2>Dos maneras de trabajar contigo</h2>
     <div class="cards">
-      <a class="card card-skin" href="{{ '/dermatologia/' | relative_url }}">
+      <a class="card" href="{{ '/dermatologia/' | relative_url }}">
+        <span class="card-icon">{% include iconos/paciente.svg %}</span>
         <span class="card-kicker">Para pacientes</span>
         <h3>Dermatología clínica y estética</h3>
         <p>Diagnóstico y tratamiento de enfermedades de la piel y procedimientos estéticos seleccionados, con un enfoque personalizado, honesto y basado en la evidencia.</p>
         <span class="link">Ver tratamientos</span>
       </a>
       <a class="card" href="{{ '/asesoria/' | relative_url }}">
+        <span class="card-icon">{% include iconos/industria.svg %}</span>
         <span class="card-kicker">Para la industria</span>
         <h3>Asesoría científica</h3>
         <p>Asesoramiento experto e independiente a compañías farmacéuticas y biotecnológicas: estrategia médica, valor científico y necesidades médicas no cubiertas.</p>

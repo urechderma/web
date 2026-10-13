@@ -190,13 +190,8 @@ p { margin: 0 0 1em; }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); color: var(--ink); }
 .card p { color: var(--ink-soft); flex: 1; }
 .card .link { color: var(--teal); align-self: flex-start; }
-.card-skin::before {
-  content: ""; position: absolute; inset: 0 0 auto auto; width: 96px; height: 96px;
-  background: url("{{ '/assets/img/piel.jpg' | relative_url }}") center / cover;
-  border-bottom-left-radius: 100%;
-  opacity: .6;
-}
-.card-skin > * { position: relative; }
+.card-icon { display: inline-flex; align-items: center; justify-content: center; width: 84px; height: 84px; flex: none; border-radius: 50%; background: var(--teal-pale); color: var(--teal-deep); margin-bottom: 24px; }
+.card-icon svg { width: 48px; height: 48px; display: block; }
 .card-kicker { display: block; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--teal); margin-bottom: 14px; }
 
 /* Llamada a la acción */
