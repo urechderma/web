@@ -213,6 +213,14 @@ p { margin: 0 0 1em; }
 .card-kicker { display: block; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--teal); margin-bottom: 14px; }
 
 /* Llamada a la acción */
+/* Hexágonos sueltos que se desprenden de las fotos de piel (los crea assets/js/hex-mask.js) */
+.hex-sueltos { position: absolute; pointer-events: none; }
+.hex-sueltos span {
+  position: absolute; width: 32px; height: 27.713px;
+  clip-path: polygon(0 50%, 25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%);
+  background-repeat: repeat, no-repeat;
+}
+
 /* Bloque de cita: turquesa a la izquierda y piel nítida a la derecha, con la curva de la portada */
 .cita {
   position: relative;
