@@ -158,10 +158,11 @@ p { margin: 0 0 1em; }
 .hero { position: relative; overflow: hidden; padding: 72px 0 88px; }
 .hero::before {
   content: "";
-  position: absolute; top: 0; right: 0; bottom: 0; width: 42%;
+  position: absolute; top: 0; right: 0; bottom: 0; width: 48%;
   background: url("{{ '/assets/img/hex.svg' | relative_url }}") 0 0 / 48px 27.713px, url("{{ '/assets/img/piel.jpg' | relative_url }}") center / cover;
   opacity: .55;
-  border-bottom-left-radius: 240px;
+  -webkit-mask: var(--hex-mask, none) 0 0 / 100% 100% no-repeat;
+  mask: var(--hex-mask, none) 0 0 / 100% 100% no-repeat;
 }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
 .hero-text h1 { margin-bottom: .45em; }
@@ -222,9 +223,10 @@ p { margin: 0 0 1em; }
 }
 .cita::after {
   content: "";
-  position: absolute; top: 0; right: 0; bottom: 0; width: 38%;
+  position: absolute; top: 0; right: 0; bottom: 0; width: 44%;
   background: url("{{ '/assets/img/hex.svg' | relative_url }}") 0 0 / 48px 27.713px, url("{{ '/assets/img/piel.jpg' | relative_url }}") center / cover;
-  border-top-left-radius: 240px;
+  -webkit-mask: var(--hex-mask, none) 0 0 / 100% 100% no-repeat;
+  mask: var(--hex-mask, none) 0 0 / 100% 100% no-repeat;
 }
 .cita h2 { color: #fff; }
 .cita p { color: rgba(255,255,255,.85); margin-bottom: 0; }
@@ -391,12 +393,12 @@ p { margin: 0 0 1em; }
   .nav .btn { margin-top: 18px; }
 
   .hero { padding: 40px 0 64px; }
-  .hero::before { width: 100%; height: 46%; top: auto; bottom: 0; border-radius: 160px 0 0 0; opacity: .4; }
+  .hero::before { width: 100%; height: 46%; top: auto; bottom: 0; opacity: .4; }
   .hero-grid, .page-head-grid, .two-col, .cards, .places, .contact-grid { grid-template-columns: 1fr; gap: 36px; }
   .places { row-gap: 0; }
   .place + .place { margin-top: 28px; }
   .hero-photo { max-width: 320px; order: -1; }
-  .hero::before { top: 0; bottom: auto; height: 300px; border-radius: 0 0 0 160px; }
+  .hero::before { top: 0; bottom: auto; height: 300px; }
   .two-col > div:first-child { position: static; }
   .facts-grid { grid-template-columns: 1fr 1fr; }
   .fact { padding: 26px 20px; border-left: 0; border-top: 1px solid rgba(255,255,255,.14); }
@@ -432,7 +434,7 @@ p { margin: 0 0 1em; }
   .place-address { padding: 0 24px; }
   .place-actions { margin: 20px 24px 24px; padding-top: 18px; }
   .cita { padding: 200px 0 60px; }
-  .cita::after { width: 100%; height: 150px; bottom: auto; border-radius: 0 0 0 120px; }
+  .cita::after { width: 100%; height: 150px; bottom: auto; }
   .cita-inner > div { max-width: none; }
   .cita-actions, .cita-actions .btn, .actions .btn { width: 100%; }
   .langs-list { grid-template-columns: 1fr; }
