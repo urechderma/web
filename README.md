@@ -11,7 +11,7 @@ El dominio está en GoDaddy: el registro CNAME `www` apunta a `urechderma.github
 - `aviso-legal.html`, `politica-de-privacidad.html`, `politica-de-cookies.html`: textos legales.
 - `_layouts/default.html`: estructura común de todas las páginas.
 - `_includes/`: cabecera, pie y bloque de "Pedir cita".
-- `assets/css/style.css`: diseño (colores, tipografías, maquetación).
+- `assets/css/main.css`: diseño (colores, tipografías, maquetación).
 - `assets/img/`: fotos. `assets/fonts/`: tipografías Fraunces y Montserrat (licencia SIL Open Font License).
 
 ## Cómo hacer un cambio
