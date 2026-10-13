@@ -1,10 +1,8 @@
 title: Dra. Marta Urech
 description: Dermatología clínica y estética en Madrid y asesoría científica para la industria farmacéutica y biotecnológica.
 lang: es
-# Mientras la web se publica en urechderma.github.io/web.
-# Al conectar el dominio: url "https://www.urechderma.com" y baseurl "".
-url: "https://urechderma.github.io"
-baseurl: "/web"
+url: "https://www.urechderma.com"
+baseurl: ""
 
 contacto:
   telefono: "+34 914 31 78 61"

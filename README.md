@@ -1,6 +1,8 @@
 # urechderma.com
 
-Web personal de la Dra. Marta Urech, publicada con GitHub Pages.
+Web personal de la Dra. Marta Urech, publicada con GitHub Pages en https://www.urechderma.com.
+
+El dominio está en GoDaddy: el registro CNAME `www` apunta a `urechderma.github.io` y `urechderma.com` (sin www) se reenvía a `https://www.urechderma.com`. Los registros MX y TXT son del correo de Google Workspace: no tocarlos.
 
 ## Cómo está organizada
 
@@ -21,8 +23,8 @@ Web personal de la Dra. Marta Urech, publicada con GitHub Pages.
 ## Probar en local
 
 ```bash
-gem install jekyll jekyll-sitemap
+gem install jekyll jekyll-sitemap jekyll-feed
 jekyll serve
 ```
 
-Y abre http://localhost:4000/web/.
+Y abre http://localhost:4000/.
