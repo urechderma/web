@@ -1,0 +1,42 @@
+---
+layout: default
+title: Dónde encontrarme
+permalink: /donde-encontrarme/
+description: Centros de trabajo de la Dra. Marta Urech en Madrid. Grupo Pedro Jaén (Serrano 143) y Hospital Universitario Ramón y Cajal.
+---
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Dónde encontrarme</p>
+    <h1>Centros de trabajo</h1>
+  </div>
+</section>
+
+<section class="section section-flush">
+  <div class="wrap places">
+    <article class="place">
+      <img src="{{ '/assets/img/serrano-143.jpg' | relative_url }}" alt="Fachada de Grupo Pedro Jaén en Serrano 143, Madrid" width="800" height="519" loading="lazy">
+      <div class="place-body">
+        <span class="card-kicker">Consulta privada</span>
+        <h2>Grupo Pedro Jaén</h2>
+        <p>Calle Serrano 143, Madrid.</p>
+        <div class="actions">
+          <a class="btn btn-small" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">Pedir cita</a>
+          <a class="link" href="{{ site.contacto.mapa_url }}" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+    </article>
+    <article class="place">
+      <img src="{{ '/assets/img/hospital-ramon-y-cajal.jpg' | relative_url }}" alt="Hospital Universitario Ramón y Cajal" width="730" height="473" loading="lazy">
+      <div class="place-body">
+        <span class="card-kicker">Sanidad pública</span>
+        <h2>Hospital Universitario Ramón y Cajal</h2>
+        <p>Madrid.</p>
+        <div class="actions">
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Hospital+Universitario+Ramon+y+Cajal+Madrid" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+{% include cita.html %}

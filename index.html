@@ -1,0 +1,70 @@
+---
+layout: default
+title: Inicio
+body_class: home
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Dermatología clínica · Asesoría científica</p>
+      <h1>El cuidado de tu piel, respaldado por <em>la ciencia</em> y la experiencia clínica.</h1>
+      <p class="lead">Soy la Dra. Marta Urech, médico especialista en Dermatología en Madrid.</p>
+      <div class="actions">
+        <a class="btn" href="{{ site.contacto.citas_url }}" target="_blank" rel="noopener">Pedir cita</a>
+        <a class="btn btn-ghost" href="tel:{{ site.contacto.telefono_enlace }}">{{ site.contacto.telefono }}</a>
+      </div>
+      <p class="langs">Atiendo en español, English, français e italiano.</p>
+    </div>
+    <figure class="hero-photo">
+      <img src="{{ '/assets/img/dra-marta-urech.jpg' | relative_url }}" alt="La Dra. Marta Urech en su consulta" width="1024" height="576">
+    </figure>
+  </div>
+</section>
+
+<section class="facts" aria-label="Trayectoria en cifras">
+  <div class="wrap facts-grid">
+    <div class="fact"><span class="fact-num">2011–2015</span><span class="fact-label">Especialidad MIR en el Hospital Universitario Ramón y Cajal</span></div>
+    <div class="fact"><span class="fact-num">10 años</span><span class="fact-label">de Medical Affairs en Roche Farma España</span></div>
+    <div class="fact"><span class="fact-num">Serrano 143</span><span class="fact-label">Consulta privada en Grupo Pedro Jaén</span></div>
+    <div class="fact"><span class="fact-num">4 idiomas</span><span class="fact-label">Español, inglés, francés e italiano</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">Hola, soy Marta</p>
+      <h2>Una vocación que empezó en la universidad</h2>
+    </div>
+    <div class="prose">
+      <p>La Dermatología ha sido mi pasión desde mi primera toma de contacto en la Universidad Autónoma de Madrid. Una vocación que tuve la oportunidad de consolidar al realizar mi especialidad (2011-2015) en el Hospital Universitario Ramón y Cajal.</p>
+      <p>Impulsada por una constante inquietud por la innovación, di el salto a la industria farmacéutica en el Departamento Médico de Roche Farma España. A lo largo de esta etapa trabajé en áreas complejas como Hemofilia, Enfermedades Autoinmunes, Oftalmología y Oncología.</p>
+      <p>Esta trayectoria me permitió entender la medicina desde un ángulo diferente, comprendiendo en profundidad el valor de la investigación clínica, la importancia de la medicina basada en la evidencia y el desarrollo de terapias innovadoras junto a grandes especialistas.</p>
+      <p>Por eso hoy, en mi práctica dermatológica directa, aplico todo este conocimiento, rigor e innovación en beneficio de la salud de tu piel.</p>
+      <p><a class="link" href="{{ '/sobre-mi/' | relative_url }}">Conoce mi trayectoria</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap">
+    <p class="eyebrow">Qué hago</p>
+    <h2>Dos maneras de trabajar contigo</h2>
+    <div class="cards">
+      <a class="card card-skin" href="{{ '/dermatologia/' | relative_url }}">
+        <span class="card-kicker">Para pacientes</span>
+        <h3>Dermatología clínica y estética</h3>
+        <p>Diagnóstico y tratamiento de enfermedades de la piel y procedimientos estéticos seleccionados, con un enfoque personalizado, honesto y basado en la evidencia.</p>
+        <span class="link">Ver tratamientos</span>
+      </a>
+      <a class="card" href="{{ '/asesoria/' | relative_url }}">
+        <span class="card-kicker">Para la industria</span>
+        <h3>Asesoría científica</h3>
+        <p>Asesoramiento experto e independiente a compañías farmacéuticas y biotecnológicas: estrategia médica, valor científico y necesidades médicas no cubiertas.</p>
+        <span class="link">Ver asesoría</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% include cita.html %}

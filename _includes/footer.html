@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="brand-name">Dra. Marta Urech</p>
+      <p class="muted">Médico especialista en Dermatología Médico-Quirúrgica y Venereología.<br>Colegiada nº 282867305 · ICOMEM</p>
+    </div>
+    <div>
+      <p class="footer-title">Consulta</p>
+      <p>Grupo Pedro Jaén<br>{{ site.contacto.direccion }}</p>
+      <p><a href="tel:{{ site.contacto.telefono_enlace }}">{{ site.contacto.telefono }}</a></p>
+    </div>
+    <div>
+      <p class="footer-title">Contacto</p>
+      <p><a href="mailto:{{ site.contacto.email_web }}">{{ site.contacto.email_web }}</a></p>
+      <p><a href="mailto:{{ site.contacto.email_industria }}">{{ site.contacto.email_industria }}</a><br><span class="muted">Asesoría científica</span></p>
+    </div>
+  </div>
+  <div class="wrap footer-legal">
+    <p>© {{ site.time | date: "%Y" }} Dra. Marta Urech. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="{{ '/aviso-legal/' | relative_url }}">Aviso legal</a></li>
+      <li><a href="{{ '/politica-de-privacidad/' | relative_url }}">Política de privacidad</a></li>
+      <li><a href="{{ '/politica-de-cookies/' | relative_url }}">Política de cookies</a></li>
+    </ul>
+  </div>
+</footer>

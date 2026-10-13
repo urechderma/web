@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/" %}
+  <title>{{ site.title }} · Dermatóloga en Madrid</title>
+  {% else %}
+  <title>{{ page.title }} · {{ site.title }}</title>
+  {% endif %}
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }} · Dermatóloga en Madrid{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/og.jpg' | absolute_url }}">
+  <meta name="theme-color" content="#17464c">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preload" href="{{ '/assets/fonts/fraunces.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/montserrat.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dra. Marta Urech García de la Vega",
+    "medicalSpecialty": "Dermatology",
+    "url": "{{ '/' | absolute_url }}",
+    "image": "{{ '/assets/img/dra-marta-urech.jpg' | absolute_url }}",
+    "telephone": "{{ site.contacto.telefono_enlace }}",
+    "knowsLanguage": ["es", "en", "fr", "it"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Serrano 143",
+      "addressLocality": "Madrid",
+      "addressCountry": "ES"
+    }
+  }
+  </script>
+  {% endif %}
+</head>
+<body class="{{ page.body_class }}">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  {% include header.html %}
+  <main id="contenido">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('menu');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        document.body.classList.toggle('menu-open', !open);
+      });
+    })();
+  </script>
+</body>
+</html>

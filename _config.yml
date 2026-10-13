@@ -1,0 +1,50 @@
+title: Dra. Marta Urech
+description: Dermatología clínica y estética en Madrid y asesoría científica para la industria farmacéutica y biotecnológica.
+lang: es
+# Mientras la web se publica en urechderma.github.io/web.
+# Al conectar el dominio: url "https://www.urechderma.com" y baseurl "".
+url: "https://urechderma.github.io"
+baseurl: "/web"
+
+contacto:
+  telefono: "+34 914 31 78 61"
+  telefono_enlace: "+34914317861"
+  citas_url: "https://grupopedrojaen.com/contacto-citas/"
+  email_web: contactoweb@urechderma.com
+  email_industria: industria@urechderma.com
+  direccion: Calle Serrano 143, Madrid
+  mapa_url: "https://www.google.com/maps/search/?api=1&query=Grupo+Pedro+Jaen+Serrano+143+Madrid"
+
+menu:
+  - titulo: Sobre mí
+    url: /sobre-mi/
+  - titulo: Dermatología
+    url: /dermatologia/
+  - titulo: Asesoría
+    url: /asesoria/
+  - titulo: Publicaciones
+    url: /publicaciones/
+  - titulo: Blog
+    url: /blog/
+  - titulo: Dónde encontrarme
+    url: /donde-encontrarme/
+  - titulo: Contacto
+    url: /contacto/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title/
+
+exclude:
+  - README.md
