@@ -306,10 +306,13 @@ p { margin: 0 0 1em; }
 
 /* Publicaciones */
 .pub-stats { background: var(--teal-deep); color: #fff; }
-.pub-year { display: grid; grid-template-columns: 140px 1fr; gap: 40px; padding: 40px 0; border-top: 1px solid var(--line); }
-.pub-year:first-child { border-top: 0; padding-top: 0; }
-.pub-year-title { font-size: 2.4rem; color: #b08f6e; margin: 0; line-height: 1; position: sticky; top: 110px; align-self: start; }
 .pubs { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px; }
+.facts-3 { grid-template-columns: repeat(3, 1fr); }
+.pubs-index { counter-reset: pub; max-width: 900px; gap: 0; }
+.pubs-index .pub { counter-increment: pub; position: relative; padding: 26px 0 26px 64px; border-top: 1px solid var(--line); }
+.pubs-index .pub:first-child { border-top: 0; padding-top: 0; }
+.pubs-index .pub::before { content: counter(pub, decimal-leading-zero); position: absolute; left: 0; top: 26px; font-family: var(--serif); font-size: 1.5rem; line-height: 1; color: #b08f6e; }
+.pubs-index .pub:first-child::before { top: 0; }
 .pub h3 { font-size: 1.2rem; margin-bottom: .35em; }
 .pub h3 a { color: var(--teal-deep); text-decoration: none; }
 .pub h3 a:hover { color: var(--teal); text-decoration: underline; }
@@ -372,8 +375,10 @@ p { margin: 0 0 1em; }
   .fact:nth-child(-n+2) { border-top: 0; }
   .fact:nth-child(odd) { padding-left: 0; }
   .pillars, .posts { grid-template-columns: 1fr; }
-  .pub-year { grid-template-columns: 1fr; gap: 16px; }
-  .pub-year-title { position: static; }
+  .facts-3 { grid-template-columns: 1fr; }
+  .facts-3 .fact { padding-left: 0; }
+  .facts-3 .fact:nth-child(2) { border-top: 1px solid rgba(255,255,255,.14); }
+  .pubs-index .pub { padding-left: 48px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid > div:first-child { grid-column: 1 / -1; }
   .page-head-photo { max-width: 260px; }
